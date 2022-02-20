@@ -18,17 +18,16 @@ I am committed to develop and validate them. Any feedback is really appreciated,
 <p>
 MTSviewer: a database to visualize mitochondrial targeting sequences, cleavage sites, and mutations on protein structures.
 </p>
+</ul>
 
 <ul>
 <h2>  
-  <a href="https://github.com/neurobioinfo/seganalysis"> MTSviewer
+  <a href="https://github.com/neurobioinfo/seganalysis"> Segregation Analysis
   </a>
 </h2>
 <p>
 Segregation Analysis: Segregation is a process to explore the genetic variant in a sample of seguence data.
 </p>
-
-
 </ul>
 
 

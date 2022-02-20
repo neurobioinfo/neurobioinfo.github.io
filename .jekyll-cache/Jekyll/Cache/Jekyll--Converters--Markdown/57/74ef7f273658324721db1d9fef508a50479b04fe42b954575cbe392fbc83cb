@@ -1,4 +1,4 @@
-<p>Clustering is an unsupervised technique to find underlying structure in a dataset by grouping
+I"‚<p>Clustering is an unsupervised technique to find underlying structure in a dataset by grouping
 data points into subsets that are as homogeneous as possible, clustering is a widely used unsupervised technique for identifying natural classes within a set of data. <a href="https://arxiv.org/pdf/1503.01183v2.pdf">Amiri et al. (2018)</a> proposed a clustering technique for general clustering problems including those that have non-convex clusters. The proposed is fully nonparametric and it generates clusters for a given desired number of clusters K. They also discussed estimating the size of cluster.</p>
 
 <h2 id="clustering">Clustering</h2>
@@ -111,3 +111,4 @@ plot(Spiral,col=CLUS[[2]])
 
 <h3 id="references">References</h3>
 <p><a href="https://arxiv.org/pdf/1503.01183v2.pdf">Amiri, S., Clarke, B, Clarke, J. &amp; Koepke, H.A. (2018). A General Hybrid Clustering Technique.</a></p>
+:ET

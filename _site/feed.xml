@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-19T23:51:57-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Neuro Bioinformatics Core</title><subtitle></subtitle><entry><title type="html">Cheatsheet for markdown.</title><link href="http://localhost:4000/2019/02/markdown.html" rel="alternate" type="text/html" title="Cheatsheet for markdown." /><published>2019-02-01T00:00:00-05:00</published><updated>2019-02-01T00:00:00-05:00</updated><id>http://localhost:4000/2019/02/markdown</id><content type="html" xml:base="http://localhost:4000/2019/02/markdown.html"><![CDATA[<h1 id="cheatsheet-for-markdown-basics">Cheatsheet for markdown (Basics)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://neurobioinfo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://neurobioinfo.github.io/" rel="alternate" type="text/html" /><updated>2022-02-20T00:11:07-05:00</updated><id>http://neurobioinfo.github.io/feed.xml</id><title type="html">The Neuro Bioinformatics Core</title><subtitle></subtitle><entry><title type="html">Cheatsheet for markdown.</title><link href="http://neurobioinfo.github.io/2019/02/markdown.html" rel="alternate" type="text/html" title="Cheatsheet for markdown." /><published>2019-02-01T00:00:00-05:00</published><updated>2019-02-01T00:00:00-05:00</updated><id>http://neurobioinfo.github.io/2019/02/markdown</id><content type="html" xml:base="http://neurobioinfo.github.io/2019/02/markdown.html"><![CDATA[<h1 id="cheatsheet-for-markdown-basics">Cheatsheet for markdown (Basics)</h1>
 <h2 id="contents">Contents</h2>
 <ul>
   <li><a href="#Heading-1">Heading</a></li>
@@ -204,10 +204,10 @@ Row 2 &lt;br&gt; continue    |  Values
 <h1 id="image">Image</h1>
 <p><em>Image:</em></p>
 
-<p><img src="https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/master/public/favicon.ico" alt="picture" /></p>
+<p><img src="https://raw.githubusercontent.com/saeidamiri1/saeidamiri1.github.io/master/public/favicon.ico" alt="picture" /></p>
 
 <p>How:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![picture](https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/master/public/favicon.ico)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![picture](https://raw.githubusercontent.com/saeidamiri1/saeidamiri1.github.io/master/public/favicon.ico)
 </code></pre></div></div>
 
 <h1 id="foldable-text">Foldable text</h1>
@@ -277,13 +277,13 @@ Does not show
 <p><strong><a href="#contents">⬆ back to top</a></strong></p>
 
 <h3 id="license">License</h3>
-<p>Copyright (c) 2019 Saeid Amiri</p>]]></content><author><name>Saeid Amiri</name></author><category term="blog" /><category term="markdown" /><summary type="html"><![CDATA[Cheatsheet for markdown.]]></summary></entry><entry><title type="html">General Hybrid Clustering.</title><link href="http://localhost:4000/2018/03/General-Hybrid-Clustering.html" rel="alternate" type="text/html" title="General Hybrid Clustering." /><published>2018-03-10T00:00:00-05:00</published><updated>2018-03-10T00:00:00-05:00</updated><id>http://localhost:4000/2018/03/General-Hybrid-Clustering</id><content type="html" xml:base="http://localhost:4000/2018/03/General-Hybrid-Clustering.html"><![CDATA[<p>Clustering is an unsupervised technique to find underlying structure in a dataset by grouping
+<p>Copyright (c) 2019 Saeid Amiri</p>]]></content><author><name>Saeid Amiri</name></author><category term="blog" /><category term="markdown" /><summary type="html"><![CDATA[Cheatsheet for markdown.]]></summary></entry><entry><title type="html">General Hybrid Clustering.</title><link href="http://neurobioinfo.github.io/2018/03/General-Hybrid-Clustering.html" rel="alternate" type="text/html" title="General Hybrid Clustering." /><published>2018-03-10T00:00:00-05:00</published><updated>2018-03-10T00:00:00-05:00</updated><id>http://neurobioinfo.github.io/2018/03/General-Hybrid-Clustering</id><content type="html" xml:base="http://neurobioinfo.github.io/2018/03/General-Hybrid-Clustering.html"><![CDATA[<p>Clustering is an unsupervised technique to find underlying structure in a dataset by grouping
 data points into subsets that are as homogeneous as possible, clustering is a widely used unsupervised technique for identifying natural classes within a set of data. <a href="https://arxiv.org/pdf/1503.01183v2.pdf">Amiri et al. (2018)</a> proposed a clustering technique for general clustering problems including those that have non-convex clusters. The proposed is fully nonparametric and it generates clusters for a given desired number of clusters K. They also discussed estimating the size of cluster.</p>
 
 <h2 id="clustering">Clustering</h2>
 <p>The proposed clustering method is referred to as Stabilized Hybrid Clustering (SHC) and its steps is presented in Algorithm 1,</p>
 
-<p><img src="https://github.com/neurobioinfo/GHC/blob/master/algorithm1.png" width="800" /></p>
+<p><img src="https://github.com/saeidamiri1/GHC/blob/master/algorithm1.png" width="800" /></p>
 
 <p>Algorithm 1 is implemented in R,</p>
 
@@ -296,7 +296,7 @@ This <code class="language-plaintext highlighter-rouge">SHC()</code> provides th
 <h2 id="size-of-cluster">Size of Cluster</h2>
 <p><a href="https://arxiv.org/pdf/1503.01183v2.pdf">Amiri et al. (2018)</a> also discussed a technique to estimate the size of clusters, it is presented in Algorithm 2,</p>
 
-<p><img src="https://github.com/neurobioinfo/GHC/blob/master/algorithm2.png" width="800" /></p>
+<p><img src="https://github.com/saeidamiri1/GHC/blob/master/algorithm2.png" width="800" /></p>
 
 <p>Algorithm 2 is implemented in R,</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>EK(observation,B=200,knmin,knmax)
@@ -304,7 +304,7 @@ This <code class="language-plaintext highlighter-rouge">SHC()</code> provides th
 
 <h2 id="source">Source</h2>
 <p>The source of codes are available in GitHub and using the following code can be uploaded in R</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; source('https://raw.githubusercontent.com/neurobioinfo/GHC/master/SHC.R')
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; source('https://raw.githubusercontent.com/saeidamiri1/GHC/master/SHC.R')
 </code></pre></div></div>
 
 <p>Also load the following libraries to run the computations in parallely,</p>
@@ -316,16 +316,16 @@ This <code class="language-plaintext highlighter-rouge">SHC()</code> provides th
 <h2 id="data-set">Data set</h2>
 <p>To describe the codes, we used the spiral data which is a non-convex data, the following script load source, dataset and plot it,</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; source('https://raw.githubusercontent.com/neurobioinfo/GHC/master/SHC.R')
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; source('https://raw.githubusercontent.com/saeidamiri1/GHC/master/SHC.R')
 &gt; library("foreach")
 &gt; library("doParallel")
 
-&gt; datasource &lt;- "https://github.com/neurobioinfo/GHC/blob/master/SPIRAL.RData?raw=true"
+&gt; datasource &lt;- "https://github.com/saeidamiri1/GHC/blob/master/SPIRAL.RData?raw=true"
 &gt; load(url(datasource))
 &gt; Spiral
 &gt; plot(Spiral)
 </code></pre></div></div>
-<p><img src="https://github.com/neurobioinfo/GHC/blob/master/Rplot.jpeg" width="300" /></p>
+<p><img src="https://github.com/saeidamiri1/GHC/blob/master/Rplot.jpeg" width="300" /></p>
 
 <h1 id="run-the-cluster">Run the Cluster</h1>
 <p>Once the data and the codes are loaded in R, the clustering can be obtained using the following script</p>
@@ -342,7 +342,7 @@ This <code class="language-plaintext highlighter-rouge">SHC()</code> provides th
 &gt; plot(hclust(CLUS[[1]],method="single"),h=-1)
 </code></pre></div></div>
 
-<p><img src="https://github.com/neurobioinfo/GHC/blob/master/Rplot01.jpeg" width="500" /></p>
+<p><img src="https://github.com/saeidamiri1/GHC/blob/master/Rplot01.jpeg" width="500" /></p>
 
 <p>The predicted clusters are also available,</p>
 
@@ -361,7 +361,7 @@ This <code class="language-plaintext highlighter-rouge">SHC()</code> provides th
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># plot the data with the assigned clusters
 plot(Spiral,col=CLUS[[2]])
 </code></pre></div></div>
-<p><img src="https://github.com/neurobioinfo/GHC/blob/master/Rplot02.jpeg" width="300" /></p>
+<p><img src="https://github.com/saeidamiri1/GHC/blob/master/Rplot02.jpeg" width="300" /></p>
 
 <p>It is of interest to run the proposed method for a cluster of #4,  the following shows the codes and the clusters,</p>
 
@@ -369,7 +369,7 @@ plot(Spiral,col=CLUS[[2]])
 &gt; plot(Spiral,col=CLUS[[2]])
 </code></pre></div></div>
 
-<p><img src="https://github.com/neurobioinfo/GHC/blob/master/Rplot03.jpeg" width="300" /></p>
+<p><img src="https://github.com/saeidamiri1/GHC/blob/master/Rplot03.jpeg" width="300" /></p>
 
 <h2 id="size-of-clusters">Size of clusters</h2>
 <p>The following script shows the function of estimating the size of clusters,</p>
@@ -381,7 +381,7 @@ plot(Spiral,col=CLUS[[2]])
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># plot the dendrogram
 &gt; plot(hclust(KCLUS[[1]],method="single"),h=-1)
 </code></pre></div></div>
-<p><img src="https://github.com/neurobioinfo/GHC/blob/master/Rplot04.jpeg" width="500" /></p>
+<p><img src="https://github.com/saeidamiri1/GHC/blob/master/Rplot04.jpeg" width="500" /></p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; # print the assigned clusters to observation
 &gt; print(KCLUS[[2]])
