@@ -9,9 +9,12 @@ Staff:
 <p>
 <h4>
 Sali Farhan, Ph.D. 
+
+![](https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/master/public/member/sali_farhan)
+
 </h4>
-Neuro Bioinformatics Core Facility title: Scientific Director <br>
-Hospital title:  Assistant Professor in the Department of Neurology and Neurosurgery, and the Department of Human Genetics.<br>
+_Neuro Bioinformatics Core Facility title:_ Scientific Director <br>
+Hospital title:  Assistant Professor in the Department of Neurology and Neurosurgery, and the Department of Human Genetics.<br>  
 Biography: Sali Farhan is an Assistant Professor in the Department of Neurology and Neurosurgery and is cross-appointed in the Department of Human Genetics at McGill University. She is also a Clinical Molecular Geneticist at the McGill University Health Centre. Her primary research focus is on the genetics of neurodegeneration, with a central focus on amyotrophic lateral sclerosis. She has contributed to the identification of several disease genes using exome sequencing including DNAJC7 in ALS, TMTC3 in intellectual disability and epilepsy, NFS1 in a novel mitochondrial disorder, and several others. She leverages the use of next-generation sequencing technology to identify genomic signatures in ALS and neurodegeneration and has helped create the ALS Knowledge Portal (alskp.org), an open-source genomics database of ~4000 ALS patients and ~8000 ethnically matched controls. Sali also collaborates closely with neurobiologists to model mutations observed in human diseases. Working with local and international clinicians and scientists, her research vision is to bridge clinical genomics with the research lab to translate research findings back into the clinical lab to best serve patients.
 <br>
 </p>
