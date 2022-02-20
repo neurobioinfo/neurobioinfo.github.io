@@ -15,7 +15,7 @@ data points into subsets that are as homogeneous as possible, clustering is a wi
 ##  Clustering
 The proposed clustering method is referred to as Stabilized Hybrid Clustering (SHC) and its steps is presented in Algorithm 1,
 
-<img src="https://github.com/neurobioinfo/GHC/blob/master/algorithm1.png" width="800">
+<img src="https://github.com/saeidamiri1/GHC/blob/master/algorithm1.png" width="800">
 
 Algorithm 1 is implemented in R,  
 
@@ -30,7 +30,7 @@ This ```SHC()``` provides the distance matrix and the predicted cluster.
 ##  Size of Cluster
 [Amiri et al. (2018)](https://arxiv.org/pdf/1503.01183v2.pdf) also discussed a technique to estimate the size of clusters, it is presented in Algorithm 2,
 
-<img src="https://github.com/neurobioinfo/GHC/blob/master/algorithm2.png" width="800">
+<img src="https://github.com/saeidamiri1/GHC/blob/master/algorithm2.png" width="800">
 
 Algorithm 2 is implemented in R,  
 ```
@@ -40,7 +40,7 @@ EK(observation,B=200,knmin,knmax)
 ## Source
 The source of codes are available in GitHub and using the following code can be uploaded in R
 ```
-> source('https://raw.githubusercontent.com/neurobioinfo/GHC/master/SHC.R')
+> source('https://raw.githubusercontent.com/saeidamiri1/GHC/master/SHC.R')
 ```
 
 Also load the following libraries to run the computations in parallely,
@@ -54,16 +54,16 @@ Also load the following libraries to run the computations in parallely,
 To describe the codes, we used the spiral data which is a non-convex data, the following script load source, dataset and plot it,
 
 ```
-> source('https://raw.githubusercontent.com/neurobioinfo/GHC/master/SHC.R')
+> source('https://raw.githubusercontent.com/saeidamiri1/GHC/master/SHC.R')
 > library("foreach")
 > library("doParallel")
 
-> datasource <- "https://github.com/neurobioinfo/GHC/blob/master/SPIRAL.RData?raw=true"
+> datasource <- "https://github.com/saeidamiri1/GHC/blob/master/SPIRAL.RData?raw=true"
 > load(url(datasource))
 > Spiral
 > plot(Spiral)
 ```
-<img src="https://github.com/neurobioinfo/GHC/blob/master/Rplot.jpeg" width="300">
+<img src="https://github.com/saeidamiri1/GHC/blob/master/Rplot.jpeg" width="300">
 
 
 # Run the Cluster
@@ -83,7 +83,7 @@ The dendrogram can be also plotted,
 > plot(hclust(CLUS[[1]],method="single"),h=-1)
 ```
 
-<img src="https://github.com/neurobioinfo/GHC/blob/master/Rplot01.jpeg" width="500">
+<img src="https://github.com/saeidamiri1/GHC/blob/master/Rplot01.jpeg" width="500">
 
 
 The predicted clusters are also available,
@@ -105,7 +105,7 @@ The predicted clusters are also available,
 # plot the data with the assigned clusters
 plot(Spiral,col=CLUS[[2]])
 ```
-<img src="https://github.com/neurobioinfo/GHC/blob/master/Rplot02.jpeg" width="300">
+<img src="https://github.com/saeidamiri1/GHC/blob/master/Rplot02.jpeg" width="300">
 
 
 It is of interest to run the proposed method for a cluster of #4,  the following shows the codes and the clusters,
@@ -115,7 +115,7 @@ It is of interest to run the proposed method for a cluster of #4,  the following
 > plot(Spiral,col=CLUS[[2]])
 ```
 
-<img src="https://github.com/neurobioinfo/GHC/blob/master/Rplot03.jpeg" width="300">
+<img src="https://github.com/saeidamiri1/GHC/blob/master/Rplot03.jpeg" width="300">
 
 
 
@@ -131,7 +131,7 @@ It is of interest to run the proposed method for a cluster of #4,  the following
 # plot the dendrogram
 > plot(hclust(KCLUS[[1]],method="single"),h=-1)
 ```
-<img src="https://github.com/neurobioinfo/GHC/blob/master/Rplot04.jpeg" width="500">
+<img src="https://github.com/saeidamiri1/GHC/blob/master/Rplot04.jpeg" width="500">
 
 
 ```
