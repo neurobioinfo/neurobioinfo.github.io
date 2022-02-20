@@ -10,7 +10,7 @@ Staff:
 <h4>
 Sali Farhan, Ph.D. 
 
-![](https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/master/public/member/sali_farhan)
+![](https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/blob/main/public/member/sali_farhan.png)
 
 </h4>
 _Neuro Bioinformatics Core Facility title:_ Scientific Director <br>
