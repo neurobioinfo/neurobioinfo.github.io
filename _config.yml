@@ -1,0 +1,25 @@
+title:  The Neuro Bioinformatics Core
+tagline:          ''
+description:      ''
+url:              http://neurobioinfo.github.io
+github_username:  neurobioinfo
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+permalink: /:year/:month/:title.html
+
+
+gems: ["jekyll-paginate", "jekyll-gist"]
+
+exclude: ["README.md", "Rakefile", "Gemfile", "Gemfile.lock"]
+highligher: rouge
+paginate: 5
+paginate_path: "page:num"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
