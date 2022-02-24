@@ -39,7 +39,7 @@ Dan Spiegelman
 </h4>
 <img src="https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/main/public/member/dan.spiegleman.jpg" alt="Dan Spiegelman" width="90" height="100">
 
-<strong>Neuro Bioinformatics Core Facility title:</strong> Research Assistant <br>
+<strong>Neuro Bioinformatics Core Facility title:</strong> Bioinformatician <br>
 <strong>Biography:</strong> After graduating with an M.Sc. in Microbiology from McGill University in 2006, Dan joined Guy Rouleau's laboratory at the University of Montreal as a research assistant tasked with serving as a bridge between a small group of informaticians and a large group of wet-lab biologists on a Genome Canada large-scale sequencing project. Dan came to McGill in 2013 when Dr. Rouleau left UdeM to join McGill as the new director of the MNI. As the last remaining member of Dr. Rouleau's bioinformatics team still at the Neuro, Dan serves as the institutional memory and the point of continuity between the Bioinformatics Core Facility and its Rouleau Lab ancestor.<br>
 Though he never received formal training in informatics, long-term exposure to trained professionals slowly but surely called him over to the computational side, as informatics became increasingly central to the activities of a high-profile genetics lab. Today his responsibilities run the gamut of Core Facility activities, from data management to large-scale production, pipeline development and maintenance, and external project consulting. Dan's skill profile is that of a consummate generalist; his areas of expertise are in the generalist's toolkit: Linux shell scripting, data management and the High-Performance Computing environment. 
 <br>
@@ -65,7 +65,7 @@ Saeid Amiri, Ph.D
 </h4>
 <img src="https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/main/public/member/saeid_amiri.png" alt="DGeorginaJA.jpeg" width="90" height="100">
 
-<strong>Neuro Bioinformatics Core Facility title:</strong> Research Assistant<br>
+<strong>Neuro Bioinformatics Core Facility title:</strong> Bioinformatician<br>
 <strong>Biography:</strong> His skill lies at the intersection of machine learning, statistical genetics, and
 bioinformatics. As a person with a background in statistics, Saeid enjoys developing statistical methods for genomic data analyses, in particular, for high-dimensional data.   <br>
 </p>
