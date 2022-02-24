@@ -27,8 +27,7 @@ BF Francis Ouellette
 
 <img src="https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/main/public/member/francis_ouellette.png" alt="Francis Ouellette" width="90" height="100">
 
-<strong>Neuro Bioinformatics Core Facility title:</strong> Scientific Director <br>
-<strong>Hospital title:</strong>  Assistant Professor in the Department of Neurology and Neurosurgery, and the Department of Human Genetics.<br>
+<strong>Neuro Bioinformatics Core Facility title:</strong> Executive Director <br>
 <strong>Biography:</strong>
 Long-time computational biologist, and Open Science advocate and supporter, Francis has led many Bioinformatics core facilities teams over the last decades to now be back in his native Montréal. From the Yeast genome project to NCBI, UBC and OICR in Toronto, Francis has led for the last 30+ years great teams to support biologists and genomics people following the technology of the time. The thread throughout his career has been to support the best possible science, with the best practices, while teaching the next generation with cutting-edge workshops. Francis will use his expertise to develop and support a great team of bioinformaticians that will support the great computational genomics work done at the Neuro. As a TOSI Open Science Officer Francis will also support and champion Open Science best practices at the Neuro.
 <br>
