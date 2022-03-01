@@ -2,11 +2,14 @@
 layout: page
 ---
 
-Hello! You have reached A test webpage of Nuero Bioinfornatics Core; this website is....
+Hello! 
+You have reached A test webpage of Neuro's Bioinfornatics Core web portal. ; this website is....
 
-We are interested in Bioinformatocs, developing algorithms, and working on interesting projects in academia\industry. We do [research](https://neurobioinfo.github.io/papers/), and develop piplines\software [software](https://neurobioinfo.github.io/software/).
+We are interested in Bioinformatics, developing algorithms, and working on projects with the Montréal Neurological community and the academic and industry communities. We do [research](https://neurobioinfo.github.io/papers/), and are developing piplines and software [software](https://neurobioinfo.github.io/software/).
 
 If you are interested in collaborating and doing some great work, please reach out to me via:
+
+[this link](https://forms.clickup.com/f/c0qg2-87/ZA5RVAIEIX2YE3LHPV) or by e-mail at: neurobioinfo@mcgill.ca
 
 <div class="contact-buttons" style="line-height:160%;margin-left:30px;margin-top:10px">
 <p>
