@@ -11,7 +11,9 @@ permalink: Ourteam/
 ## Sali Farhan, Ph.D. 
 
 
-<img src="https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/main/public/member/sali_farhan.png" alt="Sali Farhan" width="95" height="100">
+<img src="/public/member/sali_farhan.png" alt="Sali Farhane" width="95" height="100">
+
+<!--- <img src="https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/main/public/member/" alt="Sali Farhan" width="95" height="100"> --->
 
 
 ### Neuro Bioinformatics Core Facility title: Scientific Director
@@ -39,7 +41,9 @@ permalink: Ourteam/
 
 ##Dan Spiegelman  
 
-<img src="https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/main/public/member/dan.spiegleman.jpg" alt="Dan Spiegelman" width="90" height="100">
+<img src="/public/member/dan.spiegleman.jpg" alt="Dan Spiegleman" width="90" height="100">
+
+<!--- <img src="https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/main/public/member/dan.spiegleman.jpg" alt="Dan Spiegelman" width="90" height="100"> -->
 
 ### Neuro Bioinformatics Core Facility title: Bioinformatician
 **Biography:** After graduating with an M.Sc. in Microbiology from McGill University in 2006, Dan joined Guy Rouleau's laboratory at the University of Montreal as a research assistant tasked with serving as a bridge between a small group of informaticians and a large group of wet-lab biologists on a Genome Canada large-scale sequencing project. Dan came to McGill in 2013 when Dr. Rouleau left UdeM to join McGill as the new director of the MNI. As the last remaining member of Dr. Rouleau's bioinformatics team still at the Neuro, Dan serves as the institutional memory and the point of continuity between the Bioinformatics Core Facility and its Rouleau Lab ancestor.<br>
@@ -50,7 +54,9 @@ Though he never received formal training in informatics, long-term exposure to t
 
 ## Georgina Jiménez Ambriz, Ph.D.
 
-<img src="https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/main/public/member/GeorginaJA.jpeg" alt="DGeorginaJA.jpeg" width="100" height="100">
+<img src="/public/member/GeorginaJA.jpeg" alt="Georgina Jiménez Ambriz" width="90" height="100">
+
+<!--- <img src="https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/main/public/member/GeorginaJA.jpeg" alt="DGeorginaJA.jpeg" width="100" height="100"> -->
 
 ### Neuro Bioinformatics Core Facility title: Bioinformatician 
 **Biography:** Georgina has a PhD in ecological genetics from the Université de Montpellier, France. She has worked as an associate professor at the Faculty of Sciences in the National Autonomous University of Mexico where she studied genetics and evolutionary trends of organism's adaptation to perturbed environments. She got a master in bioinformatics from the “Université de Montréal.” Within her masters, she made an internship in the “Laboratoire de Santé Publique du Québec” and studied metagenomics analysis and machine learning algorithms to analyze the association between health conditions and patient microbiome data.  <br>
@@ -60,7 +66,9 @@ Georgina has developed skills in bioinformatics, biostatistics, machine learning
 
 ## Saeid Amiri, Ph.D
 
-<img src="https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/main/public/member/saeid_amiri.png" alt="DGeorginaJA.jpeg" width="90" height="100">
+<img src="/public/member/saeid_amiri.png" alt="Saeid Amiri" width="90" height="100">
+
+<!--- <img src="https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/main/public/member/saeid_amiri.png" alt="Saeid Amiri" width="90" height="100"> -->
 
 ### Neuro Bioinformatics Core Facility title: Bioinformatician
 **Biography:** His skill lies at the intersection of machine learning, statistical genetics, and
