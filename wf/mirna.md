@@ -21,15 +21,15 @@ This workflow takes as input miRNA sequence reads (presumably with Unique Molecu
 
 ### Tools used in this workflow:
 
-a. Fastqc https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
-b. UMI-tools https://github.com/CGATOxford/UMI-tools
-c. Cutadapt https://cutadapt.readthedocs.io/en/stable/guide.html
-d. Bowtie1 http://bowtie-bio.sourceforge.net/index.shtml
-e. Custom scripts (1) https://www.sciencedirect.com/science/article/pii/S266591312030131X
-f. Samtools + RNAseqc https://www.htslib.org + https://software.broadinstitute.org/cancer/cga/rna-seqc
-g. miRDeep2 https://github.com/rajewsky-lab/mirdeep2
-h. Custom scripts (1) https://www.sciencedirect.com/science/article/pii/S266591312030131X
-i. Deseq2 + Edger2 https://bioconductor.org/packages/release/bioc/html/DESeq2.html + https://bioconductor.org/packages/release/bioc/html/edgeR.html
+a. [Fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)<br>
+b. [UMI-tools](https://github.com/CGATOxford/UMI-tools)<br>
+c. [Cutadapt](https://cutadapt.readthedocs.io/en/stable/guide.html)<br>
+d. [Bowtie1](http://bowtie-bio.sourceforge.net/index.shtml)<br>
+e. [Custom scripts \[1\]](https://www.sciencedirect.com/science/article/pii/S266591312030131X)<br>
+f. [Samtools](https://www.htslib.org) + [RNAseqc](https://software.broadinstitute.org/cancer/cga/rna-seqc)<br>
+g. [miRDeep2](https://github.com/rajewsky-lab/mirdeep2)<br>
+h. [Custom scripts \[3\]](https://www.sciencedirect.com/science/article/pii/S266591312030131X)<br>
+i. [Deseq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) + [Edger2](https://bioconductor.org/packages/release/bioc/html/edgeR.html)<br>
 
 
 ## Bibliography:

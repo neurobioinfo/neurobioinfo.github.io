@@ -15,9 +15,19 @@ permalink: wf/segregation
 - [Steps of running]
 
 ## Segregation Analysis
-Segregation is a process to explore the genetic variant in a sample of seguence data. This pipeline counts the number of affecteds and nonaffecteds with variant, with homozygous variant, with no variant, and with no call. It gets those counts both in-family and globally. Also we also get the breakdown of not just variants, but also the breakdown of alleles in each. To achive the segregation, one needs a pedigree file with six columns: `familyid`, `individualid`, `parentalid`, `maternalid`, `sex`{1:male; 2:female, 0:unknown}, and `phenotype`={1: control (unaffected), 2: proband(affected), -9:missing}. And the genetic data must be in the `vcf` format. 
+Segregation is a process to explore the genetic variant in a sample of seguence data. This pipeline counts the number of affecteds and nonaffecteds with variant, with homozygous variant, with no variant, and with no call. It gets those counts both in-family and globally. Also we also get the breakdown of not just variants, but also the breakdown of alleles in each. To achive the segregation, one needs a pedigree file with six columns: 
+
+* `familyid` 
+* `individualid`
+* `parentalid`
+* `maternalid`
+* `sex`	{1:male; 2:female, 0:unknown} 
+* `phenotype`		{1: control (unaffected), 2: proband(affected), -9:missing}. 
+
+And the genetic data must be in the `vcf` format. 
 
 ## Hail
+
 Seganalysis pipeline is developed on top of [Hail](https://hail.is/), Hail module is an open-source, scalable framework for exploring and analyzing genomic data. Hail is a module in Python on the top of Apache Spark, Seganalysis pipeline is tested on [Spark-3.1.2, Pre-build for Apache Hadoop3.2](https://spark.apache.org/downloads.html).
 
 ## Steps of running pipeline 

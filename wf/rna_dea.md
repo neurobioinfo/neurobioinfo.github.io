@@ -27,8 +27,8 @@ Here is one protocol we have used at the Neuro: there are many others, and we en
 
 ## Bibliography:
 
-RNA sequencing: the teenage years. Stark R, Grzelak M, Hadfield J. Nat Rev Genet. 2019 Nov;20(11):631-656. PMID: [31341269](https://pubmed.ncbi.nlm.nih.gov/31341269/) 
-Alignment and mapping methodology influence transcript abundance estimation. Srivastava A, Malik L, Sarkar H, Zakeri M, Almodaresi F, Soneson C, Love MI, Kingsford C, Patro R. Genome Biol. 2020 Sep 7;21(1):239.  PMID: [32894187](https://pubmed.ncbi.nlm.nih.gov/32894187/)
-Differential analysis of RNA-seq incorporating quantification uncertainty. Pimentel H, Bray NL, Puente S, Melsted P, Pachter L. Nat Methods. 2017 Jul;14(7):687-690. doi: 10.1038/nmeth.4324. Epub 2017 Jun 5. PMID: [28581496](https://pubmed.ncbi.nlm.nih.gov/28581496/)
-GenPipes: an open-source framework for distributed and scalable genomic analyses. Bourgey M, Dali R, Eveleigh R, Chen KC, Letourneau L, Fillon J, Michaud M, Caron M, Sandoval J, Lefebvre F, Leveque G, Mercier E, Bujold D, Marquis P, Van PT, Anderson de Lima Morais D, Tremblay J, Shao X, Henrion E, Gonzalez E, Quirion PO, Caron B, Bourque G. Gigascience. 2019 Jun 1;8(6):giz037. doi: 10.1093/gigascience/giz037. PMID: [31185495](https://pubmed.ncbi.nlm.nih.gov/31185495/)
+1. RNA sequencing: the teenage years. Stark R, Grzelak M, Hadfield J. Nat Rev Genet. 2019 Nov;20(11):631-656. PMID: [31341269](https://pubmed.ncbi.nlm.nih.gov/31341269/) 
+2. Alignment and mapping methodology influence transcript abundance estimation. Srivastava A, Malik L, Sarkar H, Zakeri M, Almodaresi F, Soneson C, Love MI, Kingsford C, Patro R. Genome Biol. 2020 Sep 7;21(1):239.  PMID: [32894187](https://pubmed.ncbi.nlm.nih.gov/32894187/)
+3. Differential analysis of RNA-seq incorporating quantification uncertainty. Pimentel H, Bray NL, Puente S, Melsted P, Pachter L. Nat Methods. 2017 Jul;14(7):687-690. doi: 10.1038/nmeth.4324. Epub 2017 Jun 5. PMID: [28581496](https://pubmed.ncbi.nlm.nih.gov/28581496/)
+4. GenPipes: an open-source framework for distributed and scalable genomic analyses. Bourgey M, Dali R, Eveleigh R, Chen KC, Letourneau L, Fillon J, Michaud M, Caron M, Sandoval J, Lefebvre F, Leveque G, Mercier E, Bujold D, Marquis P, Van PT, Anderson de Lima Morais D, Tremblay J, Shao X, Henrion E, Gonzalez E, Quirion PO, Caron B, Bourque G. Gigascience. 2019 Jun 1;8(6):giz037. doi: 10.1093/gigascience/giz037. PMID: [31185495](https://pubmed.ncbi.nlm.nih.gov/31185495/)
 

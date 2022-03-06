@@ -14,8 +14,10 @@ permalink: wf/WGS
 
 Secondary analysis of whole-genome sequencing (WGS) or whole-exome sequencing (WES) is currently commonly performed at the Neuro Bioinformatics Core Facility and requires some input from the users about where the input files are, and what annotations are necessary. Some care should also be given to the control samples you want to use or have available in your own study.
 
-Short description of the workflow and its purpose:
+* Short description of the workflow and its purpose:
+
 * Run full per-sample secondary analysis pipeline on Illumina DRAGEN Bio-IT, via cloud-based Illumina Connected Analytics (ICA) platform.
+
 * Generates per-sample: 
   * Alignment
   * small variant calls
