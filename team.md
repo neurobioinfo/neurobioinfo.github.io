@@ -66,7 +66,7 @@ Georgina has developed skills in bioinformatics, biostatistics, machine learning
 
 ## Saeid Amiri, Ph.D
 
-<img src="/public/member/saeid_amiri.png" alt="Saeid Amiri" width="90" height="100">
+<img src="/public/member/saeid_amiri.png" alt="Saeid Amiri" width="90" height="110">
 
 <!--- <img src="https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/main/public/member/saeid_amiri.png" alt="Saeid Amiri" width="90" height="100"> -->
 
