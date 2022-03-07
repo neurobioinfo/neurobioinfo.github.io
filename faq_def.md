@@ -207,5 +207,5 @@ Commonly used Tags:
 
 ##### End of page 
 
-Want to see other enries? Send your suggestions to [neurobioinfo@mcgill.ca](mailto:neurobioinfo@mcgill.ca)!
+Want to see other entries? Send your suggestions to [neurobioinfo@mcgill.ca](mailto:neurobioinfo@mcgill.ca)!
 
