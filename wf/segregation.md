@@ -7,7 +7,7 @@ permalink: wf/segregation
 # Segregation Analysis
 
 
-![Segregation](/wf/Fig05_Variant_Segregation.jpg "Fig05_Variant_Segregation")
+<!-- ![Segregation](/wf/Fig05_Variant_Segregation.jpg "Fig05_Variant_Segregation") -->
 
 ## Contents
 - [Segregation Analysis]

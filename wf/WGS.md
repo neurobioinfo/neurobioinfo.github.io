@@ -7,7 +7,7 @@ permalink: wf/WGS
 # Whole-genome/exome mapping and variant calling Analysis
 
 
-![WGS](/wf/Fig04_WGS.jpg "Fig04_WGS")
+![WGS](/wf/WF05_WGS_ver02.jpg "Fig04_WGS")
 
 
 ## Secondary analysis of WGS DNAseq data using Illumina DRAGEN
