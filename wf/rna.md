@@ -7,7 +7,7 @@ permalink: wf/rna
 # RNA-Seq Analysis
 
 
-![RNA-Seq](/wf/WF01_RNASeq_workflow_ver02.jpg "RNA-Seq Workflow")
+![RNA-Seq Analysis](/wf/WF01_RNASeq_workflow_ver03.jpg "RNA-Seq Analysis")
 
 
 ## RNA-Seq, gene product abundance.

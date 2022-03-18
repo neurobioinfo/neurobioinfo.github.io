@@ -7,7 +7,7 @@ permalink: wf/rna
 # miRNA-Seq Analysis
 
 
-![miRNA-Seq](/wf/WF03_miRNASeq_workflow_ver02.jpg "miRNASeq Workflow")
+![miRNA-Seq Analysis](/wf/WF03_miRNASeq_workflow_ver02.jpg "miRNASeq Analysis")
 
 
 ## miRNA-Seq, gene product abundance and discovery.

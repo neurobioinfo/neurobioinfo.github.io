@@ -4,10 +4,10 @@ title: RNA-Seq and Differential Expression Analysis
 permalink: wf/rna_dea
 ---
 
-# RNA-Seq and Differential Expression Analysis
+# RNA-Seq and Differential Expression Gene Analysis
 
 
-![RNA-Seq and DEA](/wf/WF02_RNASeq_DEG_workflow_ver02.jpg "RNASeq DEA workflow")
+![RNA-Seq and DEA](/wf/WF02_RNASeq_DEG_workflow_ver03.jpg "RNASeq DEA workflow")
 
 
 ## RNA-Seq, genes abundance and differential expression.
