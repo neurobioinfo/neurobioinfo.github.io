@@ -30,7 +30,7 @@ All of this will become clear after you have spoken to us, and a plan is set for
 This is a list of the current workflows we run in the Neuro Bioinformatics Core Facility. If you do not see the workflow you need, or if you want to use one of these or modify them, please do not hesitate to [contact us at neurobioinfo@mcgill.ca](mailto:neurobioinfo@mcgill.ca). 
 
 
-* [RNA-Seq Analysis](/wf/rna)
+* [RNA-Seq Analysis](/wf/rna.md)
 * [RNA-Seq and Differential Expression Analysis](/wf/rna_dea)
 * [miRNA-Seq Analysis](/wf/mirna)
 * [scRNA-Seq Analysis](/wf/scrna)
