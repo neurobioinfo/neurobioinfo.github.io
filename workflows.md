@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Workdlows
+title: Workflows
 permalink: workflows
 ---
 
