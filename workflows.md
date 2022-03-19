@@ -31,12 +31,12 @@ This is a list of the current workflows we run in the Neuro Bioinformatics Core 
 
 
 * [RNA-Seq Analysis](/wf/rna.md)
-* [RNA-Seq and Differential Expression Analysis](/wf/rna_dea)
-* [miRNA-Seq Analysis](/wf/mirna)
-* [scRNA-Seq Analysis](/wf/scrna)
-* [Whole-Genome/Exome Mapping and Variant Calling Analysis](/wf/wga)
-* [Segregation Analysis](/wf/segregation)
-* [Data Managemment](/wf/data_management)
+* [RNA-Seq and Differential Expression Analysis](/wf/rna_dea.md)
+* [miRNA-Seq Analysis](/wf/mirna.md)
+* [scRNA-Seq Analysis](/wf/scrna.md)
+* [Whole-Genome/Exome Mapping and Variant Calling Analysis](/wf/wga.md)
+* [Segregation Analysis](/wf/segregation.md)
+* [Data Managemment](/wf/data_management.md)
 
 ## Bibliography
 
