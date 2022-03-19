@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Whole-genome/exome mapping and variant calling Analysis
-permalink: wf/WGS
+permalink: wf/wgs
 ---
 
 # Whole-genome/exome mapping and variant calling Analysis
 
 
-![Whole Genome and Exome Analysis](/wf/WF05_WGS_ver07.jpg "Whole Genome and Exome Analysis")
+![Whole Genome and Exome Analysis](/wf/WF05_WGS_workflow_ver07.jpg "Whole Genome and Exome Analysis")
 
 
 ## Secondary analysis of WGS DNAseq data using Illumina DRAGEN

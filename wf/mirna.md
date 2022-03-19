@@ -1,13 +1,13 @@
 ---
 layout: page
 title: miRNA-Seq Analysis
-permalink: wf/rna
+permalink: wf/mirna
 ---
 
 # miRNA-Seq Analysis
 
 
-![miRNA-Seq Analysis](/wf/WF03_miRNASeq_workflow_ver02.jpg "miRNASeq Analysis")
+![miRNA-Seq Analysis](/wf/WF03_miRNASeq_workflow_ver03.jpg "miRNASeq Analysis")
 
 
 ## miRNA-Seq, gene product abundance and discovery.
