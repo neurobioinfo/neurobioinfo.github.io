@@ -39,7 +39,7 @@ permalink: Ourteam/
 
 | [ORCID](https://orcid.org/0000-0003-4676-675X) | [Twitter](https://twitter.com/bffo) | [GitHub](https://github.com/bffo) | [LinkedIn](https://www.linkedin.com/in/francisouellette/) | [Google Scholar](https://scholar.google.ca/citations?user=lT0bBFYAAAAJ&hl=en) | [My Bibliograpy @ My NCBI](https://www.ncbi.nlm.nih.gov/myncbi/francis.ouellette.1/bibliography/public/) | 
 
-##Dan Spiegelman  
+## Dan Spiegelman  
 
 <img src="/public/member/dan.spiegleman.jpg" alt="Dan Spiegleman" width="90" height="110">
 
