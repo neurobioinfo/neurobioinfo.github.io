@@ -1,5 +1,5 @@
 ---
-layout: resources
+layout: page
 title: Resources
 permalink: resources/
 ---
