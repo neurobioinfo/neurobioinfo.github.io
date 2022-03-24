@@ -8,12 +8,12 @@ workflows and various help documentation.
 
 * Home page: The Neuro Bioinformatics Core Facility
 * [Workflows](workflow.md)
- * [RNA-Seq Analysis](/wf/rna.md)
- * [RNA-Seq and Differential Expression Analysis](/wf/rna_dea.md)
- * [miRNA-Seq Analysis](/wf/mirna.md)
- * [scRNA-Seq Analysis](/wf/scrna.md)
- * [Whole-Genome/Exome Mapping and Variant Calling Analysis](/wf/wga.md)
- * [Segregation Analysis](/wf/segregation.md)
+  * [RNA-Seq Analysis](/wf/rna.md)
+  * [RNA-Seq and Differential Expression Analysis](/wf/rna_dea.md)
+  * [miRNA-Seq Analysis](/wf/mirna.md)
+  * [scRNA-Seq Analysis](/wf/scrna.md)
+  * [Whole-Genome/Exome Mapping and Variant Calling Analysis](/wf/wga.md)
+  * [Segregation Analysis](/wf/segregation.md)
  * [Data Management](/wf/data_management.md) 
 * [The team](team.md)
 * [FAQ and Definitions](faq_def)
