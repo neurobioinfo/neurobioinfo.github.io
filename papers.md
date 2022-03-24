@@ -4,7 +4,7 @@ title: Papers
 permalink: papers/
 ---
 
-These are publications where the [Neuro Bioinformatics Core Facility team](/team.md)contributed to the bioinformatics analysis.<BR>
+These are publications where the [Neuro Bioinformatics Core Facility team](/team.md) contributed to the bioinformatics analysis.<BR>
 **Names are identified in bold** 
 
 ## On a preprint server or under review:
@@ -13,7 +13,6 @@ These are publications where the [Neuro Bioinformatics Core Facility team](/team
 
 * Hu J, Waters CH, **Spiegelman D**, Fon EA, Yu E, Asayesh F, Krohn L, Saini P, Alcalay RN, Hassin-Baer S, Gan-Or Z, Krainc D, Zhang B, Bustos BI and Lubbe SJ. Assessment of private variants in PRKN, PARK7 and PINK1 in Parkinson's disease. 2022. [MedRxiv](https://www.medrxiv.org/content/10.1101/2022.02.18.22269402v2?ct=)
 
-* Hu J, Waters CH, **Spiegelman D**, Fon EA, Yu E, Asayesh F, Krohn L, Saini P, Alcalay RN, Hassin-Baer S, Gan-Or Z, Krainc D, Zhang B, Bustos BI and Lubbe SJ. Assessment of private variants in PRKN, PARK7 and PINK1 in Parkinson's disease. 2022. Under review.  
 
 * Rebelo AP, Ruiz A, Dohrn M, Wayand M, Danzi M, Beijer D, Aaron B, Vandrovcova J, Houlden H, Matalonga L, Abreu L, Rouleau GA, Estiar MA, Van der Vondel L, Gan-Or Z, Baets J, Schule R and Zuchner S. BiP inactivation due to loss of the deAMPylation function of FICD causes motor neuron degeneration. 2022. Under review. 
 
