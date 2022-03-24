@@ -7,7 +7,7 @@ Bioinformatics GitHub page where we will expose publically our
 workflows and various help documentation.
 
 * Home page: The Neuro Bioinformatics Core Facility
-* [Workflows](workflow.ms)
+* [Workflows](workflow.md)
  * [RNA-Seq Analysis](/wf/rna.md)
  * [RNA-Seq and Differential Expression Analysis](/wf/rna_dea.md)
  * [miRNA-Seq Analysis](/wf/mirna.md)
