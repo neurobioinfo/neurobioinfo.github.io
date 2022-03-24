@@ -79,13 +79,6 @@ Commonly used Tags:
 *   **Definition**: BED (Browser Extensible Data) format provides a flexible way to define the data lines that are displayed in an annotation track. 
 *   [https://genome.ucsc.edu/FAQ/FAQformat.html#format1](https://genome.ucsc.edu/FAQ/FAQformat.html#format1)
 
-## bioinformatics.ca
-
-*   **Ressource**[bioinformatics.ca](http://bioinformatics.ca/)
-*   Home of the Canadian Bioinformatics Workshops series.
-    *   [Course Material](https://bioinformaticsdotca.github.io/)
-    *   [YouTube videos](https://www.youtube.com/channel/UCKbkfKk65PZyRCzUwXOJung/featured)
-
 ## CNV
 
 *   **Wikipedia**: [Copy number variation](https://en.wikipedia.org/wiki/Copy_number_variation)
@@ -99,10 +92,6 @@ Commonly used Tags:
 *   **Definition**: CRAM is a compressed columnar file format for storing biological sequences aligned to a reference sequence, initially devised by Markus Hsi-Yang Fritz et al. CRAM was designed to be an efficient reference-based alternative to the Sequence Alignment Map (SAM) and Binary Alignment Map (BAM) file formats. (from [CRAM)](https://en.wikipedia.org/wiki/CRAM_(file_format)#:~:text=CRAM%20is%20a%20compressed%20columnar,Map%20(BAM)%20file%20formats.)
 *   Original Reference: Efficient storage of high throughput DNA sequencing data using reference-based compression. Hsi-Yang Fritz M, Leinonen R, Cochrane G, Birney E. Genome Res. 2011 May;21(5):734-40. PMID: [21245279](https://pubmed.ncbi.nlm.nih.gov/21245279/) 
 
-## DRAGEN
-
-*   The Illumina DRAGEN (Dynamic Read Analysis for GENomics) Bio-IT Platform is a commercial platform that provides secondary genomic analysis of sequencing data.
-*   Further documentation is provided by the vendor: [from Illumina](https://www.illumina.com/products/by-type/informatics-products/dragen-bio-it-platform.html)
 
 ## FASTQ
 
@@ -187,13 +176,6 @@ Commonly used Tags:
 *   Structural variation in the human genome. Feuk L, Carson AR, Scherer SW. Nat Rev Genet. 2006 Feb;7(2):85-97. PMID: [16418744](https://pubmed.ncbi.nlm.nih.gov/16418744/)
 *   **Reference:** Structural variant calling: the long and the short of it. Mahmoud M, Gobet N, Cruz-Dávalos DI, Mounier N, Dessimoz C, Sedlazeck FJ. Genome Biol. 2019 Nov 20;20(1):246. PMID: [31747936](https://pubmed.ncbi.nlm.nih.gov/31747936/)
 
-## UCSC Genome Browsers
-
-*   **Software**
-*   **Resource:** [https://genome.ucsc.edu/](https://genome.ucsc.edu/)
-*   **Definition**: The UCSC Genome Browser is a web-based tool serving as a multi-powered microscope that allows researchers to view all 23 chromosomes of the human genome at any scale from a full chromosome down to an individual nucleotide. ([source](https://genome.ucsc.edu/goldenPath/history.html))
-*   [Genome Browser](https://genome.ucsc.edu/cgi-bin/hgGateway)
-*   [FAQ File formats](https://genome.ucsc.edu/FAQ/FAQformat.html)
 
 ## VCF
 *   **File format**
