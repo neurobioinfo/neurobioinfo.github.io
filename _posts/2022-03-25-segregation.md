@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Segregation Analysis
-permalink: wf/segregation
+# permalink: wf/segregation
 ---
 
 # Segregation Analysis
