@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data Management at the Neurobioinfo
-permalink: wf/data_management
+permalink: _posts/data_management
 ---
 
 # Data Management

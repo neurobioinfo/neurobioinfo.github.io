@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Whole-genome/exome mapping and variant calling Analysis
+title: Segregation Analysis
 permalink: wf/segregation
 ---
 
