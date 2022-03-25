@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>The Neuro Bioinformatics Core</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2022-03-24T23:11:02-04:00</updated>
- <id>http://localhost:4000</id>
+ <link href="http://neurobioinfo.github.io/atom.xml" rel="self"/>
+ <link href="http://neurobioinfo.github.io/"/>
+ <updated>2022-03-24T23:13:04-04:00</updated>
+ <id>http://neurobioinfo.github.io</id>
  <author>
    <name></name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Cheatsheet for markdown.</title>
-   <link href="http://localhost:4000/2019/02/markdown.html"/>
+   <link href="http://neurobioinfo.github.io/2019/02/markdown.html"/>
    <updated>2019-02-01T00:00:00-05:00</updated>
-   <id>http://localhost:4000/2019/02/markdown</id>
+   <id>http://neurobioinfo.github.io/2019/02/markdown</id>
    <content type="html">&lt;h1 id=&quot;cheatsheet-for-markdown-basics&quot;&gt;Cheatsheet for markdown (Basics)&lt;/h1&gt;
 &lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
 &lt;ul&gt;
@@ -302,9 +302,9 @@ Does not show
  
  <entry>
    <title>General Hybrid Clustering.</title>
-   <link href="http://localhost:4000/2018/03/General-Hybrid-Clustering.html"/>
+   <link href="http://neurobioinfo.github.io/2018/03/General-Hybrid-Clustering.html"/>
    <updated>2018-03-10T00:00:00-05:00</updated>
-   <id>http://localhost:4000/2018/03/General-Hybrid-Clustering</id>
+   <id>http://neurobioinfo.github.io/2018/03/General-Hybrid-Clustering</id>
    <content type="html">&lt;p&gt;Clustering is an unsupervised technique to find underlying structure in a dataset by grouping
 data points into subsets that are as homogeneous as possible, clustering is a widely used unsupervised technique for identifying natural classes within a set of data. &lt;a href=&quot;https://arxiv.org/pdf/1503.01183v2.pdf&quot;&gt;Amiri et al. (2018)&lt;/a&gt; proposed a clustering technique for general clustering problems including those that have non-convex clusters. The proposed is fully nonparametric and it generates clusters for a given desired number of clusters K. They also discussed estimating the size of cluster.&lt;/p&gt;
 
