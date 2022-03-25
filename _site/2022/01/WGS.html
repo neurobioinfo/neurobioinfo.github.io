@@ -9,7 +9,7 @@
 
   <title>
     
-      The Neuro Bioinformatics Core &middot; 
+      Whole-genome/exome mapping and variant calling Analysis &middot; The Neuro Bioinformatics Core
     
   </title>
 
@@ -101,7 +101,7 @@
 
   <title>
     
-      The Neuro Bioinformatics Core &middot; 
+      Whole-genome/exome mapping and variant calling Analysis &middot; The Neuro Bioinformatics Core
     
   </title>
 
@@ -125,70 +125,43 @@
   
 
   <article class="post-content">
-    <p><img src="https://www.mcgill.ca/neuro/files/neuro/moriarty_logo.png" alt="Neuro_logo" width="200" /></p>
+    <h1 id="whole-genomeexome-mapping-and-variant-calling-analysis">Whole-genome/exome mapping and variant calling Analysis</h1>
 
-<h1 id="the-neuro-bioinformatics-core-facility">The Neuro Bioinformatics Core Facility</h1>
+<p><img src="/wf/WF05_WGS_workflow_ver07.jpg" alt="Whole Genome and Exome Analysis" title="Whole Genome and Exome Analysis" /></p>
 
-<p>The mission of the Neuro Bioinformatics Core Facility is to support and facilitate the best workflows and bioinformatics best practices to enable and empower the scientific community at the Neuro interested in computational biology and bioinformatics work. This will usually involve employing one of our existing workflows or inviting us to develop new ones.</p>
+<h2 id="secondary-analysis-of-wgs-dnaseq-data-using-illumina-dragen">Secondary analysis of WGS DNAseq data using Illumina DRAGEN</h2>
 
-<p>To start working with us we ask that you first fill out our initial intake form which we will follow with a meeting allowing us to gather the necessary information so we can start on the work you want us to do with you.</p>
-
-<p><a href="https://forms.clickup.com/f/c0qg2-87/ZA5RVAIEIX2YE3LHPV">INTAKE FORM</a></p>
-
-<p>We are a <a href="https://neurobioinfo.github.io/team">team</a> of dedicated and skilled bioinformatics people, ready to address any genomic and genetic analysis for 1 or 1,000 samples (or more). If you do not see the workflow that can address your bioinformatics needs, contact us at <a href="mailto:neurobioinfo@mcgill.ca">neurobioinfo@mcgill.ca</a> and we will be happy to address your specific need(s).</p>
-
-<!--- You have reached A test webpage of Neuro's Bioinfornatics Core web portal. ; this website is....
-
-We are interested in Bioinformatics, developing algorithms, and working on projects with the <br>
-Montréal Neurological community and the academic and industry communities. <br>
-We do [research](https://neurobioinfo.github.io/papers/), and are developing piplines and software [software](https://neurobioinfo.github.io/software/).
-
-If you are interested in collaborating and doing some great work, please reach out to me via: [this link](https://forms.clickup.com/f/c0qg2-87/ZA5RVAIEIX2YE3LHPV) or <br>
-by [e-mail to neurobioinfo@mcgill.ca](mailto:neurobioinfo@mcgill.ca) 
-
-
-
-
-
-<p>
-
-
-<div class="contact-buttons" style="line-height:160%;margin-left:30px;margin-top:10px">
-<p>
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="//neurobioinfo.github.io/css/academicons.css">
-  <a href="mailto:neurobioinfo@mcgill.ca" target="_blank" style="color:#855f65;"><i class="fa fa-envelope" style="font-size:1em"></i> &nbsp; Email<br></a>
-<a href="https://github.com/neurobioinfo" target="_blank" style="color:#0e5295;"><i class="fa fa-github" aria-hidden="true"></i> &nbsp; GitHub<br></a>
-</p>
-</div>
+<p>Secondary analysis of whole-genome sequencing (WGS) or whole-exome sequencing (WES) is currently commonly performed at the Neuro Bioinformatics Core Facility and requires some input from the users about where the input files are, and what annotations are necessary. Some care should also be given to the control samples you want to use or have available in your own study.</p>
 
 <ul>
----
-    Bioinfo 's Adv
----
-  
-    <li><span>07 Jan 2022</span> &raquo; <a href="/_posts/data_management" title="Data Management at the Neurobioinfo">Data Management at the Neurobioinfo</a></li>
-  
-    <li><span>07 Jan 2022</span> &raquo; <a href="/2022/01/WGS.html" title="Whole-genome/exome mapping and variant calling Analysis">Whole-genome/exome mapping and variant calling Analysis</a></li>
-  
-    <li><span>06 Jan 2022</span> &raquo; <a href="/2022/01/segregation.html" title="Segregation Analysis">Segregation Analysis</a></li>
-  
-    <li><span>05 Jan 2022</span> &raquo; <a href="/2022/01/rna.html" title="RNA-Seq Analysis">RNA-Seq Analysis</a></li>
-  
-    <li><span>04 Jan 2022</span> &raquo; <a href="/2022/01/rna_dea.html" title="RNA-Seq and Differential Expression Analysis">RNA-Seq and Differential Expression Analysis</a></li>
-  
-    <li><span>03 Jan 2022</span> &raquo; <a href="/2022/01/mirna.html" title="miRNA-Seq Analysis">miRNA-Seq Analysis</a></li>
-  
-    <li><span>02 Jan 2022</span> &raquo; <a href="/_posts/" title="scRNA-Seq Analysis">scRNA-Seq Analysis</a></li>
-  
-    <li><span>01 Jan 2022</span> &raquo; <a href="/2022/01/data_management.html" title="Data Management at the Neurobioinfo">Data Management at the Neurobioinfo</a></li>
-  
-    
+  <li>
+    <p>Short description of the workflow and its purpose:</p>
+  </li>
+  <li>
+    <p>Run full per-sample secondary analysis pipeline on Illumina DRAGEN Bio-IT, via cloud-based Illumina Connected Analytics (ICA) platform.</p>
+  </li>
+  <li>Generates per-sample: 
+    <ul>
+      <li>Alignment</li>
+      <li>small variant calls</li>
+      <li>Copy-Number Variant (CNV) calls</li>
+      <li>Structural Variant (SV) calls</li>
+      <li>Repeat expansions</li>
+      <li>Per-chromosome ploidy calls</li>
+      <li>Runs of heterozygosity</li>
+      <li>Various QC metrics</li>
+    </ul>
+  </li>
+  <li>Raw samples sequences are uploaded to ICA, passed through the Dragen Germline pipeline, then outputs are downloaded back to Compute Canada HPC (beluga server).</li>
 </ul>
 
-<br>
+<h2 id="bibliography">Bibliography:</h2>
 
--->
+<ol>
+  <li>Original Link where workflow was first presented: Illumina <a href="https://support.illumina.com/content/dam/illumina-support/help/Illumina_DRAGEN_Bio_IT_Platform_v3_7_1000000141465/Content/SW/Informatics/Dragen/GPipelineIntro_fDG.htm">DRAGEN DNA Pipeline</a></li>
+  <li>Reliable variant calling during runtime of Illumina sequencing. Loka TP, Tausch SH, Renard BY. Sci Rep. 2019 Nov 11;9(1):16502 PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/31712740/">31712740</a> (This publication is not from Illumina, but it represents an early publication that references DRAGEN.)</li>
+  <li>From the GATK portal: <a href="https://gatk.broadinstitute.org/hc/en-us/articles/360045944831">DRAGEN-GATK – GATK</a></li>
+</ol>
 
 
   </article>

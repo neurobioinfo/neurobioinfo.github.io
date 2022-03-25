@@ -9,7 +9,7 @@
 
   <title>
     
-      The Neuro Bioinformatics Core &middot; 
+      RNA-Seq and Differential Expression Analysis &middot; The Neuro Bioinformatics Core
     
   </title>
 
@@ -101,7 +101,7 @@
 
   <title>
     
-      The Neuro Bioinformatics Core &middot; 
+      RNA-Seq and Differential Expression Analysis &middot; The Neuro Bioinformatics Core
     
   </title>
 
@@ -125,70 +125,38 @@
   
 
   <article class="post-content">
-    <p><img src="https://www.mcgill.ca/neuro/files/neuro/moriarty_logo.png" alt="Neuro_logo" width="200" /></p>
+    <h1 id="rna-seq-and-differential-expression-gene-analysis">RNA-Seq and Differential Expression Gene Analysis</h1>
 
-<h1 id="the-neuro-bioinformatics-core-facility">The Neuro Bioinformatics Core Facility</h1>
+<p><img src="/wf/WF02_RNASeq_DEG_workflow_ver04.jpg" alt="RNA-Seq and DEA" title="RNASeq DEA workflow" /></p>
 
-<p>The mission of the Neuro Bioinformatics Core Facility is to support and facilitate the best workflows and bioinformatics best practices to enable and empower the scientific community at the Neuro interested in computational biology and bioinformatics work. This will usually involve employing one of our existing workflows or inviting us to develop new ones.</p>
+<h2 id="rna-seq-genes-abundance-and-differential-expression">RNA-Seq, genes abundance and differential expression.</h2>
 
-<p>To start working with us we ask that you first fill out our initial intake form which we will follow with a meeting allowing us to gather the necessary information so we can start on the work you want us to do with you.</p>
+<p>Understanding what transcriptome is present in a tissue or cell type is crucial to any functional genomic analysis, and many reviews on the topic of measuring RNA with next-generation sequencing technology abound [1].</p>
 
-<p><a href="https://forms.clickup.com/f/c0qg2-87/ZA5RVAIEIX2YE3LHPV">INTAKE FORM</a></p>
+<p>Here is one protocol we have used at the Neuro: there are many others, and we encourage you to discuss alternatives with us.</p>
 
-<p>We are a <a href="https://neurobioinfo.github.io/team">team</a> of dedicated and skilled bioinformatics people, ready to address any genomic and genetic analysis for 1 or 1,000 samples (or more). If you do not see the workflow that can address your bioinformatics needs, contact us at <a href="mailto:neurobioinfo@mcgill.ca">neurobioinfo@mcgill.ca</a> and we will be happy to address your specific need(s).</p>
-
-<!--- You have reached A test webpage of Neuro's Bioinfornatics Core web portal. ; this website is....
-
-We are interested in Bioinformatics, developing algorithms, and working on projects with the <br>
-Montréal Neurological community and the academic and industry communities. <br>
-We do [research](https://neurobioinfo.github.io/papers/), and are developing piplines and software [software](https://neurobioinfo.github.io/software/).
-
-If you are interested in collaborating and doing some great work, please reach out to me via: [this link](https://forms.clickup.com/f/c0qg2-87/ZA5RVAIEIX2YE3LHPV) or <br>
-by [e-mail to neurobioinfo@mcgill.ca](mailto:neurobioinfo@mcgill.ca) 
-
-
-
-
-
-<p>
-
-
-<div class="contact-buttons" style="line-height:160%;margin-left:30px;margin-top:10px">
-<p>
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="//neurobioinfo.github.io/css/academicons.css">
-  <a href="mailto:neurobioinfo@mcgill.ca" target="_blank" style="color:#855f65;"><i class="fa fa-envelope" style="font-size:1em"></i> &nbsp; Email<br></a>
-<a href="https://github.com/neurobioinfo" target="_blank" style="color:#0e5295;"><i class="fa fa-github" aria-hidden="true"></i> &nbsp; GitHub<br></a>
-</p>
-</div>
+<h3 id="short-description-of-the-workflow-and-its-purpose">Short description of the workflow and its purpose:</h3>
 
 <ul>
----
-    Bioinfo 's Adv
----
-  
-    <li><span>07 Jan 2022</span> &raquo; <a href="/_posts/data_management" title="Data Management at the Neurobioinfo">Data Management at the Neurobioinfo</a></li>
-  
-    <li><span>07 Jan 2022</span> &raquo; <a href="/2022/01/WGS.html" title="Whole-genome/exome mapping and variant calling Analysis">Whole-genome/exome mapping and variant calling Analysis</a></li>
-  
-    <li><span>06 Jan 2022</span> &raquo; <a href="/2022/01/segregation.html" title="Segregation Analysis">Segregation Analysis</a></li>
-  
-    <li><span>05 Jan 2022</span> &raquo; <a href="/2022/01/rna.html" title="RNA-Seq Analysis">RNA-Seq Analysis</a></li>
-  
-    <li><span>04 Jan 2022</span> &raquo; <a href="/2022/01/rna_dea.html" title="RNA-Seq and Differential Expression Analysis">RNA-Seq and Differential Expression Analysis</a></li>
-  
-    <li><span>03 Jan 2022</span> &raquo; <a href="/2022/01/mirna.html" title="miRNA-Seq Analysis">miRNA-Seq Analysis</a></li>
-  
-    <li><span>02 Jan 2022</span> &raquo; <a href="/_posts/" title="scRNA-Seq Analysis">scRNA-Seq Analysis</a></li>
-  
-    <li><span>01 Jan 2022</span> &raquo; <a href="/2022/01/data_management.html" title="Data Management at the Neurobioinfo">Data Management at the Neurobioinfo</a></li>
-  
-    
+  <li>This workflow takes as input RNA sequence reads in FASTQ format and uses Salmon to perform a “pseudo-alignment.” Pseudo-alignment consists of k-mer matching reads against a de Brujin graph of a transcriptome reference and quantifying the expression of transcripts. </li>
+  <li>Transcript quantification and variance estimation are generated by bootstraps sampling and modelling sample-specific parameters and biases using a Variational Bayesian EM algorithm [2].</li>
+  <li>Salmon quantification files are used as input for Sleuth differential expression analysis (DEG). In order to test for differentially expressed genes, Sleuth models the true biological variance using a general linear model and the technical variance generated by bootstraps sampling from pseudo-alignments [3].
+    <ul>
+      <li><a href="https://hbctraining.github.io/DGE_workshop_salmon/lessons/09_sleuth.html">Original Link where workflow was first identified</a>  </li>
+      <li><a href="https://bitbucket.org/mugqic/genpipes/src/master/#markdown-header-rna-seq-light-pipeline">Original Link if a similar workflow exists in GenPipes (using kalisto)</a> [4]: </li>
+      <li>Workshop notes from the Griffith lab at Wash U (St-Louis): <a href="https://pmbio.org/module-06-rnaseq/0006/01/01/Intro_to_RNAseq_Analysis/">Intro to RNAseq Analysis</a></li>
+    </ul>
+  </li>
 </ul>
 
-<br>
+<h2 id="bibliography">Bibliography:</h2>
 
--->
+<ol>
+  <li>RNA sequencing: the teenage years. Stark R, Grzelak M, Hadfield J. Nat Rev Genet. 2019 Nov;20(11):631-656. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/31341269/">31341269</a></li>
+  <li>Alignment and mapping methodology influence transcript abundance estimation. Srivastava A, Malik L, Sarkar H, Zakeri M, Almodaresi F, Soneson C, Love MI, Kingsford C, Patro R. Genome Biol. 2020 Sep 7;21(1):239.  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/32894187/">32894187</a></li>
+  <li>Differential analysis of RNA-seq incorporating quantification uncertainty. Pimentel H, Bray NL, Puente S, Melsted P, Pachter L. Nat Methods. 2017 Jul;14(7):687-690. doi: 10.1038/nmeth.4324. Epub 2017 Jun 5. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/28581496/">28581496</a></li>
+  <li>GenPipes: an open-source framework for distributed and scalable genomic analyses. Bourgey M, Dali R, Eveleigh R, Chen KC, Letourneau L, Fillon J, Michaud M, Caron M, Sandoval J, Lefebvre F, Leveque G, Mercier E, Bujold D, Marquis P, Van PT, Anderson de Lima Morais D, Tremblay J, Shao X, Henrion E, Gonzalez E, Quirion PO, Caron B, Bourque G. Gigascience. 2019 Jun 1;8(6):giz037. doi: 10.1093/gigascience/giz037. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/31185495/">31185495</a></li>
+</ol>
 
 
   </article>

@@ -4,7 +4,7 @@
  <title>The Neuro Bioinformatics Core</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-03-25T10:04:05-04:00</updated>
+ <updated>2022-03-25T13:09:14-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -13,10 +13,87 @@
 
  
  <entry>
+   <title>Data Management at the Neurobioinfo</title>
+   <link href="http://localhost:4000/_posts/data_management"/>
+   <updated>2022-01-07T00:00:00-05:00</updated>
+   <id>http://localhost:4000/_posts/data_management</id>
+   <content type="html">&lt;h1 id=&quot;data-management&quot;&gt;Data Management&lt;/h1&gt;
+
+&lt;p&gt;Managing one’s sequencing data is an ongoing task that we are pleased to support and for which we will with the respective plan highlight the best path forward.  Factors affecting the decisions we make will include (but are not limited to) the following availability of some or all of these documents:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The existence of a Data Management Plan (DMP) will inform on the data availability, its life cycle, and its required persistence. [1]&lt;/li&gt;
+  &lt;li&gt;Metadata. [2]&lt;/li&gt;
+  &lt;li&gt;Information about the scale and duration of the project.&lt;/li&gt;
+  &lt;li&gt;The consent forms that were used for the study in question.&lt;/li&gt;
+  &lt;li&gt;The availability of a data access committee that will oversee the controlled access of the data.&lt;/li&gt;
+  &lt;li&gt;The availability of sufficient computer infrastructure.&lt;/li&gt;
+  &lt;li&gt;The availability of necessary funds to carry out the analysis and storage for the project.&lt;/li&gt;
+  &lt;li&gt;In many cases, your supervisor and yourself will need to get started by setting up a Compute Canada at McGill [3].&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bibliography&quot;&gt;Bibliography:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mcgill.ca/neuro/open-science/open-science-best-practices/what-data-management-plan-dmp&quot;&gt;Data Management Plan documentation on the Neuro Web site.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/cs/0502008.pdf&quot;&gt;Scientific Data Management in the Coming Decade. Jim Gray, David T. Liu, Maria Nieto-Santisteban &amp;amp; Alexander S. Szalay, David DeWitt, Wisconsin Gerd Heber, 2005&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://acelab.cbrain.mcgill.ca/doku.php?id=obtaining_a_compute_canada_account&quot;&gt;Opening a Compute Canada Account at McGill.&lt;/a&gt;
+&lt;img src=&quot;&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Whole-genome/exome mapping and variant calling Analysis</title>
-   <link href="http://localhost:4000/wf/segregation"/>
-   <updated>2022-03-25T00:00:00-04:00</updated>
-   <id>http://localhost:4000/wf/segregation</id>
+   <link href="http://localhost:4000/2022/01/WGS.html"/>
+   <updated>2022-01-07T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2022/01/WGS</id>
+   <content type="html">&lt;h1 id=&quot;whole-genomeexome-mapping-and-variant-calling-analysis&quot;&gt;Whole-genome/exome mapping and variant calling Analysis&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/wf/WF05_WGS_workflow_ver07.jpg&quot; alt=&quot;Whole Genome and Exome Analysis&quot; title=&quot;Whole Genome and Exome Analysis&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;secondary-analysis-of-wgs-dnaseq-data-using-illumina-dragen&quot;&gt;Secondary analysis of WGS DNAseq data using Illumina DRAGEN&lt;/h2&gt;
+
+&lt;p&gt;Secondary analysis of whole-genome sequencing (WGS) or whole-exome sequencing (WES) is currently commonly performed at the Neuro Bioinformatics Core Facility and requires some input from the users about where the input files are, and what annotations are necessary. Some care should also be given to the control samples you want to use or have available in your own study.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Short description of the workflow and its purpose:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Run full per-sample secondary analysis pipeline on Illumina DRAGEN Bio-IT, via cloud-based Illumina Connected Analytics (ICA) platform.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Generates per-sample: 
+    &lt;ul&gt;
+      &lt;li&gt;Alignment&lt;/li&gt;
+      &lt;li&gt;small variant calls&lt;/li&gt;
+      &lt;li&gt;Copy-Number Variant (CNV) calls&lt;/li&gt;
+      &lt;li&gt;Structural Variant (SV) calls&lt;/li&gt;
+      &lt;li&gt;Repeat expansions&lt;/li&gt;
+      &lt;li&gt;Per-chromosome ploidy calls&lt;/li&gt;
+      &lt;li&gt;Runs of heterozygosity&lt;/li&gt;
+      &lt;li&gt;Various QC metrics&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Raw samples sequences are uploaded to ICA, passed through the Dragen Germline pipeline, then outputs are downloaded back to Compute Canada HPC (beluga server).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bibliography&quot;&gt;Bibliography:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Original Link where workflow was first presented: Illumina &lt;a href=&quot;https://support.illumina.com/content/dam/illumina-support/help/Illumina_DRAGEN_Bio_IT_Platform_v3_7_1000000141465/Content/SW/Informatics/Dragen/GPipelineIntro_fDG.htm&quot;&gt;DRAGEN DNA Pipeline&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Reliable variant calling during runtime of Illumina sequencing. Loka TP, Tausch SH, Renard BY. Sci Rep. 2019 Nov 11;9(1):16502 PMID: &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/31712740/&quot;&gt;31712740&lt;/a&gt; (This publication is not from Illumina, but it represents an early publication that references DRAGEN.)&lt;/li&gt;
+  &lt;li&gt;From the GATK portal: &lt;a href=&quot;https://gatk.broadinstitute.org/hc/en-us/articles/360045944831&quot;&gt;DRAGEN-GATK – GATK&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Segregation Analysis</title>
+   <link href="http://localhost:4000/2022/01/segregation.html"/>
+   <updated>2022-01-06T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2022/01/segregation</id>
    <content type="html">&lt;h1 id=&quot;segregation-analysis&quot;&gt;Segregation Analysis&lt;/h1&gt;
 
 &lt;!-- ![Segregation](/wf/Fig05_Variant_Segregation.jpg &quot;Fig05_Variant_Segregation&quot;) --&gt;
@@ -140,13 +217,129 @@ parser.sub_seg(destfolder, header_need)
  </entry>
  
  <entry>
+   <title>RNA-Seq Analysis</title>
+   <link href="http://localhost:4000/2022/01/rna.html"/>
+   <updated>2022-01-05T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2022/01/rna</id>
+   <content type="html">&lt;h1 id=&quot;rna-seq-analysis&quot;&gt;RNA-Seq Analysis&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/wf/WF01_RNASeq_workflow_ver04.jpg&quot; alt=&quot;RNA-Seq Analysis&quot; title=&quot;RNA-Seq Analysis&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;rna-seq-gene-product-abundance&quot;&gt;RNA-Seq, gene product abundance.&lt;/h2&gt;
+
+&lt;p&gt;Understanding what transcriptome is present in a tissue or cell type is crucial to any functional genomic analysis, and many reviews on the topic of measuring RNA with next-generation sequencing technology abound [1].&lt;/p&gt;
+
+&lt;p&gt;Here is one protocol we have used at the Neuro: there are many others, and we encourage you to discuss alternatives with us.&lt;/p&gt;
+
+&lt;h3 id=&quot;short-description-of-the-workflow-and-its-purpose&quot;&gt;Short description of the workflow and its purpose:&lt;/h3&gt;
+
+&lt;p&gt;This workflow takes as input RNA sequence reads in FASTQ format and uses Salmon to perform a “pseudo-alignment.” Pseudo-alignment consists of mapping reads against a reference transcriptome index and quantifying the expression of transcripts. 
+Transcript quantification and variance estimation are generated by bootstraps sampling and modelling sample-specific parameters and biases using a Variational Bayesian EM algorithm [2].&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Original Link if a similar workflow exists in GenPipes (using kalisto) [3]&lt;/li&gt;
+  &lt;li&gt;Workshop notes from the Griffith lab at Wash U (St-Louis): Intro to RNAseq Analysis [4]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bibliography&quot;&gt;Bibliography:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;RNA sequencing: the teenage years. Stark R, Grzelak M, Hadfield J. Nat Rev Genet. 2019 Nov;20(11):631-656. &lt;a href=&quot;https://www.nature.com/articles/s41576-019-0150-2&quot;&gt;DOI 10.1038/s41576-019-0150-2&lt;/a&gt; PMID: &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/31341269/&quot;&gt;31341269&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Alignment and mapping methodology influence transcript abundance estimation. Srivastava A, Malik L, Sarkar H, Zakeri M, Almodaresi F, Soneson C, Love MI, Kingsford C, Patro R. Genome Biol. 2020 Sep 7;21(1):239. &lt;a href=&quot;https://doi.org/10.1186/s13059-020-02151-8&quot;&gt;DOI 10.1186/s13059-020-02151-8&lt;/a&gt; PMID: &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/32894187/&quot;&gt;32894187&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt;GenPipes: an open-source framework for distributed and scalable genomic analyses. Bourgey M, Dali R, Eveleigh R, Chen KC, Letourneau L, Fillon J, Michaud M, Caron M, Sandoval J, Lefebvre F, Leveque G, Mercier E, Bujold D, Marquis P, Van PT, Anderson de Lima Morais D, Tremblay J, Shao X, Henrion E, Gonzalez E, Quirion PO, Caron B, Bourque G. Gigascience. 2019 Jun 1;8(6):giz037. &lt;a href=&quot;https://academic.oup.com/gigascience/article/8/6/giz037/5513895&quot;&gt;DOI:10.1093/gigascience/giz037&lt;/a&gt;. PMID: &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/31185495/&quot;&gt;31185495&lt;/a&gt;  &lt;/li&gt;
+  &lt;li&gt;Obi L. Griffith, Malachi Griffith, Zachary L. Skidmore, Huiming Xia, Erica Barnell, Sharon Freshour, Jeff Szymanski, and Katie Campbell. Wahington University, St-Louis, MO, USA. &lt;a href=&quot;https://griffithlab.org/&quot;&gt;https://griffithlab.org/&lt;/a&gt; -  &lt;a href=&quot;https://pmbio.org/module-06-rnaseq/0006/01/01/Intro_to_RNAseq_Analysis/&quot;&gt;Intro to RNAseq Analysis&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>RNA-Seq and Differential Expression Analysis</title>
+   <link href="http://localhost:4000/2022/01/rna_dea.html"/>
+   <updated>2022-01-04T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2022/01/rna_dea</id>
+   <content type="html">&lt;h1 id=&quot;rna-seq-and-differential-expression-gene-analysis&quot;&gt;RNA-Seq and Differential Expression Gene Analysis&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/wf/WF02_RNASeq_DEG_workflow_ver04.jpg&quot; alt=&quot;RNA-Seq and DEA&quot; title=&quot;RNASeq DEA workflow&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;rna-seq-genes-abundance-and-differential-expression&quot;&gt;RNA-Seq, genes abundance and differential expression.&lt;/h2&gt;
+
+&lt;p&gt;Understanding what transcriptome is present in a tissue or cell type is crucial to any functional genomic analysis, and many reviews on the topic of measuring RNA with next-generation sequencing technology abound [1].&lt;/p&gt;
+
+&lt;p&gt;Here is one protocol we have used at the Neuro: there are many others, and we encourage you to discuss alternatives with us.&lt;/p&gt;
+
+&lt;h3 id=&quot;short-description-of-the-workflow-and-its-purpose&quot;&gt;Short description of the workflow and its purpose:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This workflow takes as input RNA sequence reads in FASTQ format and uses Salmon to perform a “pseudo-alignment.” Pseudo-alignment consists of k-mer matching reads against a de Brujin graph of a transcriptome reference and quantifying the expression of transcripts. &lt;/li&gt;
+  &lt;li&gt;Transcript quantification and variance estimation are generated by bootstraps sampling and modelling sample-specific parameters and biases using a Variational Bayesian EM algorithm [2].&lt;/li&gt;
+  &lt;li&gt;Salmon quantification files are used as input for Sleuth differential expression analysis (DEG). In order to test for differentially expressed genes, Sleuth models the true biological variance using a general linear model and the technical variance generated by bootstraps sampling from pseudo-alignments [3].
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://hbctraining.github.io/DGE_workshop_salmon/lessons/09_sleuth.html&quot;&gt;Original Link where workflow was first identified&lt;/a&gt;  &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://bitbucket.org/mugqic/genpipes/src/master/#markdown-header-rna-seq-light-pipeline&quot;&gt;Original Link if a similar workflow exists in GenPipes (using kalisto)&lt;/a&gt; [4]: &lt;/li&gt;
+      &lt;li&gt;Workshop notes from the Griffith lab at Wash U (St-Louis): &lt;a href=&quot;https://pmbio.org/module-06-rnaseq/0006/01/01/Intro_to_RNAseq_Analysis/&quot;&gt;Intro to RNAseq Analysis&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bibliography&quot;&gt;Bibliography:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;RNA sequencing: the teenage years. Stark R, Grzelak M, Hadfield J. Nat Rev Genet. 2019 Nov;20(11):631-656. PMID: &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/31341269/&quot;&gt;31341269&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Alignment and mapping methodology influence transcript abundance estimation. Srivastava A, Malik L, Sarkar H, Zakeri M, Almodaresi F, Soneson C, Love MI, Kingsford C, Patro R. Genome Biol. 2020 Sep 7;21(1):239.  PMID: &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/32894187/&quot;&gt;32894187&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Differential analysis of RNA-seq incorporating quantification uncertainty. Pimentel H, Bray NL, Puente S, Melsted P, Pachter L. Nat Methods. 2017 Jul;14(7):687-690. doi: 10.1038/nmeth.4324. Epub 2017 Jun 5. PMID: &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/28581496/&quot;&gt;28581496&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;GenPipes: an open-source framework for distributed and scalable genomic analyses. Bourgey M, Dali R, Eveleigh R, Chen KC, Letourneau L, Fillon J, Michaud M, Caron M, Sandoval J, Lefebvre F, Leveque G, Mercier E, Bujold D, Marquis P, Van PT, Anderson de Lima Morais D, Tremblay J, Shao X, Henrion E, Gonzalez E, Quirion PO, Caron B, Bourque G. Gigascience. 2019 Jun 1;8(6):giz037. doi: 10.1093/gigascience/giz037. PMID: &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/31185495/&quot;&gt;31185495&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>miRNA-Seq Analysis</title>
+   <link href="http://localhost:4000/2022/01/mirna.html"/>
+   <updated>2022-01-03T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2022/01/mirna</id>
+   <content type="html">&lt;h1 id=&quot;mirna-seq-analysis&quot;&gt;miRNA-Seq Analysis&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/wf/WF03_miRNASeq_workflow_ver03.jpg&quot; alt=&quot;miRNA-Seq Analysis&quot; title=&quot;miRNASeq Analysis&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;mirna-seq-gene-product-abundance-and-discovery&quot;&gt;miRNA-Seq, gene product abundance and discovery.&lt;/h2&gt;
+
+&lt;p&gt;A microRNA (abbreviated miRNA) is a small single-stranded non-coding RNA molecule (containing about 22 nucleotides) found in plants, animals and some viruses, that functions in RNA silencing and post-transcriptional regulation of gene expression. miRNAs function via base-pairing with complementary sequences within mRNA molecules. As a result, these mRNA molecules are silenced, by one or more of the following processes: (1) cleavage of the mRNA strand into two pieces, (2) destabilization of the mRNA through shortening of its poly(A) tail, and (3) less efficient translation of the mRNA into proteins by ribosomes. (Definition from Wikipedia: microRNA) [1]&lt;/p&gt;
+
+&lt;h3 id=&quot;short-description-of-the-workflow-and-its-purpose&quot;&gt;Short description of the workflow and its purpose:&lt;/h3&gt;
+&lt;p&gt;This workflow takes as input miRNA sequence reads (presumably with Unique Molecular Identifiers (UMIs))  in FASTQ format and uses a number of tools to QC, trim, map, analyze, count and do a differential gene expression depending on your experimental design. All of these tools and workflow were extracted from the Potlaab and colleagues publication[2]. Other details on Bioinformatic Analysis of MicroRNA Sequencing Data are also described in the publication from Fu and Dong [3].&lt;/p&gt;
+
+&lt;h3 id=&quot;tools-used-in-this-workflow&quot;&gt;Tools used in this workflow:&lt;/h3&gt;
+
+&lt;p&gt;a. &lt;a href=&quot;https://www.bioinformatics.babraham.ac.uk/projects/fastqc/&quot;&gt;Fastqc&lt;/a&gt;&lt;br /&gt;
+b. &lt;a href=&quot;https://github.com/CGATOxford/UMI-tools&quot;&gt;UMI-tools&lt;/a&gt;&lt;br /&gt;
+c. &lt;a href=&quot;https://cutadapt.readthedocs.io/en/stable/guide.html&quot;&gt;Cutadapt&lt;/a&gt;&lt;br /&gt;
+d. &lt;a href=&quot;http://bowtie-bio.sourceforge.net/index.shtml&quot;&gt;Bowtie1&lt;/a&gt;&lt;br /&gt;
+e. &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S266591312030131X&quot;&gt;Custom scripts [1]&lt;/a&gt;&lt;br /&gt;
+f. &lt;a href=&quot;https://www.htslib.org&quot;&gt;Samtools&lt;/a&gt; + &lt;a href=&quot;https://software.broadinstitute.org/cancer/cga/rna-seqc&quot;&gt;RNAseqc&lt;/a&gt;&lt;br /&gt;
+g. &lt;a href=&quot;https://github.com/rajewsky-lab/mirdeep2&quot;&gt;miRDeep2&lt;/a&gt;&lt;br /&gt;
+h. &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S266591312030131X&quot;&gt;Custom scripts [3]&lt;/a&gt;&lt;br /&gt;
+i. &lt;a href=&quot;https://bioconductor.org/packages/release/bioc/html/DESeq2.html&quot;&gt;Deseq2&lt;/a&gt; + &lt;a href=&quot;https://bioconductor.org/packages/release/bioc/html/edgeR.html&quot;&gt;Edger2&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bibliography&quot;&gt;Bibliography:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Wikipedia entry for microRNA: https://en.wikipedia.org/wiki/MicroRNA&lt;/li&gt;
+  &lt;li&gt;Pratibha Potlaab, Shabana AmandaAli, Mohit Kapoor A bioinformatics approach to microRNA-sequencing analysis https://www.sciencedirect.com/science/article/pii/S266591312030131X&lt;/li&gt;
+  &lt;li&gt;Bioinformatic Analysis of MicroRNA Sequencing Data. Fu X, Dong D. Methods Mol Biol. 2018;1751:109-125. PMID: 29508293 and as a PDF on ResearchGate&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>scRNA-Seq Analysis</title>
-   <link href="http://localhost:4000/wf/"/>
-   <updated>2022-03-25T00:00:00-04:00</updated>
+   <link href="http://localhost:4000/_posts/"/>
+   <updated>2022-01-02T00:00:00-05:00</updated>
    <id>http://localhost:4000/scrna</id>
    <content type="html">&lt;h1 id=&quot;single-cell-rna-seq-analysis&quot;&gt;Single Cell RNA-Seq Analysis&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;/wf/WF04_scRNASeq_workflow_ver03.jpg&quot; alt=&quot;scRNA-Seq Analysis&quot; title=&quot;scRNASeq Analysis&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/_posts/WF04_scRNASeq_workflow_ver03.jpg&quot; alt=&quot;scRNA-Seq Analysis&quot; title=&quot;scRNASeq Analysis&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;scrna-seq-seurat-workflow-automation&quot;&gt;ScRNA-Seq Seurat workflow automation.&lt;/h2&gt;
 
@@ -190,126 +383,10 @@ Downstream integrated analysis includes: Dimensional reduction and clustering, c
  </entry>
  
  <entry>
-   <title>RNA-Seq and Differential Expression Analysis</title>
-   <link href="http://localhost:4000/wf/rna_dea"/>
-   <updated>2022-03-25T00:00:00-04:00</updated>
-   <id>http://localhost:4000/wf/rna_dea</id>
-   <content type="html">&lt;h1 id=&quot;rna-seq-and-differential-expression-gene-analysis&quot;&gt;RNA-Seq and Differential Expression Gene Analysis&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;/wf/WF02_RNASeq_DEG_workflow_ver04.jpg&quot; alt=&quot;RNA-Seq and DEA&quot; title=&quot;RNASeq DEA workflow&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;rna-seq-genes-abundance-and-differential-expression&quot;&gt;RNA-Seq, genes abundance and differential expression.&lt;/h2&gt;
-
-&lt;p&gt;Understanding what transcriptome is present in a tissue or cell type is crucial to any functional genomic analysis, and many reviews on the topic of measuring RNA with next-generation sequencing technology abound [1].&lt;/p&gt;
-
-&lt;p&gt;Here is one protocol we have used at the Neuro: there are many others, and we encourage you to discuss alternatives with us.&lt;/p&gt;
-
-&lt;h3 id=&quot;short-description-of-the-workflow-and-its-purpose&quot;&gt;Short description of the workflow and its purpose:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;This workflow takes as input RNA sequence reads in FASTQ format and uses Salmon to perform a “pseudo-alignment.” Pseudo-alignment consists of k-mer matching reads against a de Brujin graph of a transcriptome reference and quantifying the expression of transcripts. &lt;/li&gt;
-  &lt;li&gt;Transcript quantification and variance estimation are generated by bootstraps sampling and modelling sample-specific parameters and biases using a Variational Bayesian EM algorithm [2].&lt;/li&gt;
-  &lt;li&gt;Salmon quantification files are used as input for Sleuth differential expression analysis (DEG). In order to test for differentially expressed genes, Sleuth models the true biological variance using a general linear model and the technical variance generated by bootstraps sampling from pseudo-alignments [3].
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://hbctraining.github.io/DGE_workshop_salmon/lessons/09_sleuth.html&quot;&gt;Original Link where workflow was first identified&lt;/a&gt;  &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://bitbucket.org/mugqic/genpipes/src/master/#markdown-header-rna-seq-light-pipeline&quot;&gt;Original Link if a similar workflow exists in GenPipes (using kalisto)&lt;/a&gt; [4]: &lt;/li&gt;
-      &lt;li&gt;Workshop notes from the Griffith lab at Wash U (St-Louis): &lt;a href=&quot;https://pmbio.org/module-06-rnaseq/0006/01/01/Intro_to_RNAseq_Analysis/&quot;&gt;Intro to RNAseq Analysis&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;bibliography&quot;&gt;Bibliography:&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;RNA sequencing: the teenage years. Stark R, Grzelak M, Hadfield J. Nat Rev Genet. 2019 Nov;20(11):631-656. PMID: &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/31341269/&quot;&gt;31341269&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Alignment and mapping methodology influence transcript abundance estimation. Srivastava A, Malik L, Sarkar H, Zakeri M, Almodaresi F, Soneson C, Love MI, Kingsford C, Patro R. Genome Biol. 2020 Sep 7;21(1):239.  PMID: &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/32894187/&quot;&gt;32894187&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Differential analysis of RNA-seq incorporating quantification uncertainty. Pimentel H, Bray NL, Puente S, Melsted P, Pachter L. Nat Methods. 2017 Jul;14(7):687-690. doi: 10.1038/nmeth.4324. Epub 2017 Jun 5. PMID: &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/28581496/&quot;&gt;28581496&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GenPipes: an open-source framework for distributed and scalable genomic analyses. Bourgey M, Dali R, Eveleigh R, Chen KC, Letourneau L, Fillon J, Michaud M, Caron M, Sandoval J, Lefebvre F, Leveque G, Mercier E, Bujold D, Marquis P, Van PT, Anderson de Lima Morais D, Tremblay J, Shao X, Henrion E, Gonzalez E, Quirion PO, Caron B, Bourque G. Gigascience. 2019 Jun 1;8(6):giz037. doi: 10.1093/gigascience/giz037. PMID: &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/31185495/&quot;&gt;31185495&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-</content>
- </entry>
- 
- <entry>
-   <title>RNA-Seq Analysis</title>
-   <link href="http://localhost:4000/wf/rna"/>
-   <updated>2022-03-25T00:00:00-04:00</updated>
-   <id>http://localhost:4000/wf/rna</id>
-   <content type="html">&lt;h1 id=&quot;rna-seq-analysis&quot;&gt;RNA-Seq Analysis&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;/wf/WF01_RNASeq_workflow_ver04.jpg&quot; alt=&quot;RNA-Seq Analysis&quot; title=&quot;RNA-Seq Analysis&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;rna-seq-gene-product-abundance&quot;&gt;RNA-Seq, gene product abundance.&lt;/h2&gt;
-
-&lt;p&gt;Understanding what transcriptome is present in a tissue or cell type is crucial to any functional genomic analysis, and many reviews on the topic of measuring RNA with next-generation sequencing technology abound [1].&lt;/p&gt;
-
-&lt;p&gt;Here is one protocol we have used at the Neuro: there are many others, and we encourage you to discuss alternatives with us.&lt;/p&gt;
-
-&lt;h3 id=&quot;short-description-of-the-workflow-and-its-purpose&quot;&gt;Short description of the workflow and its purpose:&lt;/h3&gt;
-
-&lt;p&gt;This workflow takes as input RNA sequence reads in FASTQ format and uses Salmon to perform a “pseudo-alignment.” Pseudo-alignment consists of mapping reads against a reference transcriptome index and quantifying the expression of transcripts. 
-Transcript quantification and variance estimation are generated by bootstraps sampling and modelling sample-specific parameters and biases using a Variational Bayesian EM algorithm [2].&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Original Link if a similar workflow exists in GenPipes (using kalisto) [3]&lt;/li&gt;
-  &lt;li&gt;Workshop notes from the Griffith lab at Wash U (St-Louis): Intro to RNAseq Analysis [4]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;bibliography&quot;&gt;Bibliography:&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;RNA sequencing: the teenage years. Stark R, Grzelak M, Hadfield J. Nat Rev Genet. 2019 Nov;20(11):631-656. &lt;a href=&quot;https://www.nature.com/articles/s41576-019-0150-2&quot;&gt;DOI 10.1038/s41576-019-0150-2&lt;/a&gt; PMID: &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/31341269/&quot;&gt;31341269&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Alignment and mapping methodology influence transcript abundance estimation. Srivastava A, Malik L, Sarkar H, Zakeri M, Almodaresi F, Soneson C, Love MI, Kingsford C, Patro R. Genome Biol. 2020 Sep 7;21(1):239. &lt;a href=&quot;https://doi.org/10.1186/s13059-020-02151-8&quot;&gt;DOI 10.1186/s13059-020-02151-8&lt;/a&gt; PMID: &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/32894187/&quot;&gt;32894187&lt;/a&gt; &lt;/li&gt;
-  &lt;li&gt;GenPipes: an open-source framework for distributed and scalable genomic analyses. Bourgey M, Dali R, Eveleigh R, Chen KC, Letourneau L, Fillon J, Michaud M, Caron M, Sandoval J, Lefebvre F, Leveque G, Mercier E, Bujold D, Marquis P, Van PT, Anderson de Lima Morais D, Tremblay J, Shao X, Henrion E, Gonzalez E, Quirion PO, Caron B, Bourque G. Gigascience. 2019 Jun 1;8(6):giz037. &lt;a href=&quot;https://academic.oup.com/gigascience/article/8/6/giz037/5513895&quot;&gt;DOI:10.1093/gigascience/giz037&lt;/a&gt;. PMID: &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/31185495/&quot;&gt;31185495&lt;/a&gt;  &lt;/li&gt;
-  &lt;li&gt;Obi L. Griffith, Malachi Griffith, Zachary L. Skidmore, Huiming Xia, Erica Barnell, Sharon Freshour, Jeff Szymanski, and Katie Campbell. Wahington University, St-Louis, MO, USA. &lt;a href=&quot;https://griffithlab.org/&quot;&gt;https://griffithlab.org/&lt;/a&gt; -  &lt;a href=&quot;https://pmbio.org/module-06-rnaseq/0006/01/01/Intro_to_RNAseq_Analysis/&quot;&gt;Intro to RNAseq Analysis&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-</content>
- </entry>
- 
- <entry>
-   <title>miRNA-Seq Analysis</title>
-   <link href="http://localhost:4000/wf/mirna"/>
-   <updated>2022-03-25T00:00:00-04:00</updated>
-   <id>http://localhost:4000/wf/mirna</id>
-   <content type="html">&lt;h1 id=&quot;mirna-seq-analysis&quot;&gt;miRNA-Seq Analysis&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;/wf/WF03_miRNASeq_workflow_ver03.jpg&quot; alt=&quot;miRNA-Seq Analysis&quot; title=&quot;miRNASeq Analysis&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;mirna-seq-gene-product-abundance-and-discovery&quot;&gt;miRNA-Seq, gene product abundance and discovery.&lt;/h2&gt;
-
-&lt;p&gt;A microRNA (abbreviated miRNA) is a small single-stranded non-coding RNA molecule (containing about 22 nucleotides) found in plants, animals and some viruses, that functions in RNA silencing and post-transcriptional regulation of gene expression. miRNAs function via base-pairing with complementary sequences within mRNA molecules. As a result, these mRNA molecules are silenced, by one or more of the following processes: (1) cleavage of the mRNA strand into two pieces, (2) destabilization of the mRNA through shortening of its poly(A) tail, and (3) less efficient translation of the mRNA into proteins by ribosomes. (Definition from Wikipedia: microRNA) [1]&lt;/p&gt;
-
-&lt;h3 id=&quot;short-description-of-the-workflow-and-its-purpose&quot;&gt;Short description of the workflow and its purpose:&lt;/h3&gt;
-&lt;p&gt;This workflow takes as input miRNA sequence reads (presumably with Unique Molecular Identifiers (UMIs))  in FASTQ format and uses a number of tools to QC, trim, map, analyze, count and do a differential gene expression depending on your experimental design. All of these tools and workflow were extracted from the Potlaab and colleagues publication[2]. Other details on Bioinformatic Analysis of MicroRNA Sequencing Data are also described in the publication from Fu and Dong [3].&lt;/p&gt;
-
-&lt;h3 id=&quot;tools-used-in-this-workflow&quot;&gt;Tools used in this workflow:&lt;/h3&gt;
-
-&lt;p&gt;a. &lt;a href=&quot;https://www.bioinformatics.babraham.ac.uk/projects/fastqc/&quot;&gt;Fastqc&lt;/a&gt;&lt;br /&gt;
-b. &lt;a href=&quot;https://github.com/CGATOxford/UMI-tools&quot;&gt;UMI-tools&lt;/a&gt;&lt;br /&gt;
-c. &lt;a href=&quot;https://cutadapt.readthedocs.io/en/stable/guide.html&quot;&gt;Cutadapt&lt;/a&gt;&lt;br /&gt;
-d. &lt;a href=&quot;http://bowtie-bio.sourceforge.net/index.shtml&quot;&gt;Bowtie1&lt;/a&gt;&lt;br /&gt;
-e. &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S266591312030131X&quot;&gt;Custom scripts [1]&lt;/a&gt;&lt;br /&gt;
-f. &lt;a href=&quot;https://www.htslib.org&quot;&gt;Samtools&lt;/a&gt; + &lt;a href=&quot;https://software.broadinstitute.org/cancer/cga/rna-seqc&quot;&gt;RNAseqc&lt;/a&gt;&lt;br /&gt;
-g. &lt;a href=&quot;https://github.com/rajewsky-lab/mirdeep2&quot;&gt;miRDeep2&lt;/a&gt;&lt;br /&gt;
-h. &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S266591312030131X&quot;&gt;Custom scripts [3]&lt;/a&gt;&lt;br /&gt;
-i. &lt;a href=&quot;https://bioconductor.org/packages/release/bioc/html/DESeq2.html&quot;&gt;Deseq2&lt;/a&gt; + &lt;a href=&quot;https://bioconductor.org/packages/release/bioc/html/edgeR.html&quot;&gt;Edger2&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;bibliography&quot;&gt;Bibliography:&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Wikipedia entry for microRNA: https://en.wikipedia.org/wiki/MicroRNA&lt;/li&gt;
-  &lt;li&gt;Pratibha Potlaab, Shabana AmandaAli, Mohit Kapoor A bioinformatics approach to microRNA-sequencing analysis https://www.sciencedirect.com/science/article/pii/S266591312030131X&lt;/li&gt;
-  &lt;li&gt;Bioinformatic Analysis of MicroRNA Sequencing Data. Fu X, Dong D. Methods Mol Biol. 2018;1751:109-125. PMID: 29508293 and as a PDF on ResearchGate&lt;/li&gt;
-&lt;/ol&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Data Management at the Neurobioinfo</title>
-   <link href="http://localhost:4000/wf/data_management"/>
-   <updated>2022-03-25T00:00:00-04:00</updated>
-   <id>http://localhost:4000/wf/data_management</id>
+   <link href="http://localhost:4000/2022/01/data_management.html"/>
+   <updated>2022-01-01T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2022/01/data_management</id>
    <content type="html">&lt;h1 id=&quot;data-management&quot;&gt;Data Management&lt;/h1&gt;
 
 &lt;p&gt;Managing one’s sequencing data is an ongoing task that we are pleased to support and for which we will with the respective plan highlight the best path forward.  Factors affecting the decisions we make will include (but are not limited to) the following availability of some or all of these documents:&lt;/p&gt;
@@ -333,52 +410,6 @@ i. &lt;a href=&quot;https://bioconductor.org/packages/release/bioc/html/DESeq2.h
   &lt;li&gt;&lt;a href=&quot;https://acelab.cbrain.mcgill.ca/doku.php?id=obtaining_a_compute_canada_account&quot;&gt;Opening a Compute Canada Account at McGill.&lt;/a&gt;
 &lt;img src=&quot;&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
 &lt;/ol&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Whole-genome/exome mapping and variant calling Analysis</title>
-   <link href="http://localhost:4000/wf/wgs"/>
-   <updated>2022-03-25T00:00:00-04:00</updated>
-   <id>http://localhost:4000/wf/WGS</id>
-   <content type="html">&lt;h1 id=&quot;whole-genomeexome-mapping-and-variant-calling-analysis&quot;&gt;Whole-genome/exome mapping and variant calling Analysis&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;/wf/WF05_WGS_workflow_ver07.jpg&quot; alt=&quot;Whole Genome and Exome Analysis&quot; title=&quot;Whole Genome and Exome Analysis&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;secondary-analysis-of-wgs-dnaseq-data-using-illumina-dragen&quot;&gt;Secondary analysis of WGS DNAseq data using Illumina DRAGEN&lt;/h2&gt;
-
-&lt;p&gt;Secondary analysis of whole-genome sequencing (WGS) or whole-exome sequencing (WES) is currently commonly performed at the Neuro Bioinformatics Core Facility and requires some input from the users about where the input files are, and what annotations are necessary. Some care should also be given to the control samples you want to use or have available in your own study.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Short description of the workflow and its purpose:&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Run full per-sample secondary analysis pipeline on Illumina DRAGEN Bio-IT, via cloud-based Illumina Connected Analytics (ICA) platform.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Generates per-sample: 
-    &lt;ul&gt;
-      &lt;li&gt;Alignment&lt;/li&gt;
-      &lt;li&gt;small variant calls&lt;/li&gt;
-      &lt;li&gt;Copy-Number Variant (CNV) calls&lt;/li&gt;
-      &lt;li&gt;Structural Variant (SV) calls&lt;/li&gt;
-      &lt;li&gt;Repeat expansions&lt;/li&gt;
-      &lt;li&gt;Per-chromosome ploidy calls&lt;/li&gt;
-      &lt;li&gt;Runs of heterozygosity&lt;/li&gt;
-      &lt;li&gt;Various QC metrics&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Raw samples sequences are uploaded to ICA, passed through the Dragen Germline pipeline, then outputs are downloaded back to Compute Canada HPC (beluga server).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;bibliography&quot;&gt;Bibliography:&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Original Link where workflow was first presented: Illumina &lt;a href=&quot;https://support.illumina.com/content/dam/illumina-support/help/Illumina_DRAGEN_Bio_IT_Platform_v3_7_1000000141465/Content/SW/Informatics/Dragen/GPipelineIntro_fDG.htm&quot;&gt;DRAGEN DNA Pipeline&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Reliable variant calling during runtime of Illumina sequencing. Loka TP, Tausch SH, Renard BY. Sci Rep. 2019 Nov 11;9(1):16502 PMID: &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/31712740/&quot;&gt;31712740&lt;/a&gt; (This publication is not from Illumina, but it represents an early publication that references DRAGEN.)&lt;/li&gt;
-  &lt;li&gt;From the GATK portal: &lt;a href=&quot;https://gatk.broadinstitute.org/hc/en-us/articles/360045944831&quot;&gt;DRAGEN-GATK – GATK&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
 </content>
  </entry>
  

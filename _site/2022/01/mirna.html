@@ -9,7 +9,7 @@
 
   <title>
     
-      The Neuro Bioinformatics Core &middot; 
+      miRNA-Seq Analysis &middot; The Neuro Bioinformatics Core
     
   </title>
 
@@ -101,7 +101,7 @@
 
   <title>
     
-      The Neuro Bioinformatics Core &middot; 
+      miRNA-Seq Analysis &middot; The Neuro Bioinformatics Core
     
   </title>
 
@@ -125,71 +125,36 @@
   
 
   <article class="post-content">
-    <p><img src="https://www.mcgill.ca/neuro/files/neuro/moriarty_logo.png" alt="Neuro_logo" width="200" /></p>
+    <h1 id="mirna-seq-analysis">miRNA-Seq Analysis</h1>
 
-<h1 id="the-neuro-bioinformatics-core-facility">The Neuro Bioinformatics Core Facility</h1>
+<p><img src="/wf/WF03_miRNASeq_workflow_ver03.jpg" alt="miRNA-Seq Analysis" title="miRNASeq Analysis" /></p>
 
-<p>The mission of the Neuro Bioinformatics Core Facility is to support and facilitate the best workflows and bioinformatics best practices to enable and empower the scientific community at the Neuro interested in computational biology and bioinformatics work. This will usually involve employing one of our existing workflows or inviting us to develop new ones.</p>
+<h2 id="mirna-seq-gene-product-abundance-and-discovery">miRNA-Seq, gene product abundance and discovery.</h2>
 
-<p>To start working with us we ask that you first fill out our initial intake form which we will follow with a meeting allowing us to gather the necessary information so we can start on the work you want us to do with you.</p>
+<p>A microRNA (abbreviated miRNA) is a small single-stranded non-coding RNA molecule (containing about 22 nucleotides) found in plants, animals and some viruses, that functions in RNA silencing and post-transcriptional regulation of gene expression. miRNAs function via base-pairing with complementary sequences within mRNA molecules. As a result, these mRNA molecules are silenced, by one or more of the following processes: (1) cleavage of the mRNA strand into two pieces, (2) destabilization of the mRNA through shortening of its poly(A) tail, and (3) less efficient translation of the mRNA into proteins by ribosomes. (Definition from Wikipedia: microRNA) [1]</p>
 
-<p><a href="https://forms.clickup.com/f/c0qg2-87/ZA5RVAIEIX2YE3LHPV">INTAKE FORM</a></p>
+<h3 id="short-description-of-the-workflow-and-its-purpose">Short description of the workflow and its purpose:</h3>
+<p>This workflow takes as input miRNA sequence reads (presumably with Unique Molecular Identifiers (UMIs))  in FASTQ format and uses a number of tools to QC, trim, map, analyze, count and do a differential gene expression depending on your experimental design. All of these tools and workflow were extracted from the Potlaab and colleagues publication[2]. Other details on Bioinformatic Analysis of MicroRNA Sequencing Data are also described in the publication from Fu and Dong [3].</p>
 
-<p>We are a <a href="https://neurobioinfo.github.io/team">team</a> of dedicated and skilled bioinformatics people, ready to address any genomic and genetic analysis for 1 or 1,000 samples (or more). If you do not see the workflow that can address your bioinformatics needs, contact us at <a href="mailto:neurobioinfo@mcgill.ca">neurobioinfo@mcgill.ca</a> and we will be happy to address your specific need(s).</p>
+<h3 id="tools-used-in-this-workflow">Tools used in this workflow:</h3>
 
-<!--- You have reached A test webpage of Neuro's Bioinfornatics Core web portal. ; this website is....
+<p>a. <a href="https://www.bioinformatics.babraham.ac.uk/projects/fastqc/">Fastqc</a><br />
+b. <a href="https://github.com/CGATOxford/UMI-tools">UMI-tools</a><br />
+c. <a href="https://cutadapt.readthedocs.io/en/stable/guide.html">Cutadapt</a><br />
+d. <a href="http://bowtie-bio.sourceforge.net/index.shtml">Bowtie1</a><br />
+e. <a href="https://www.sciencedirect.com/science/article/pii/S266591312030131X">Custom scripts [1]</a><br />
+f. <a href="https://www.htslib.org">Samtools</a> + <a href="https://software.broadinstitute.org/cancer/cga/rna-seqc">RNAseqc</a><br />
+g. <a href="https://github.com/rajewsky-lab/mirdeep2">miRDeep2</a><br />
+h. <a href="https://www.sciencedirect.com/science/article/pii/S266591312030131X">Custom scripts [3]</a><br />
+i. <a href="https://bioconductor.org/packages/release/bioc/html/DESeq2.html">Deseq2</a> + <a href="https://bioconductor.org/packages/release/bioc/html/edgeR.html">Edger2</a><br /></p>
 
-We are interested in Bioinformatics, developing algorithms, and working on projects with the <br>
-Montréal Neurological community and the academic and industry communities. <br>
-We do [research](https://neurobioinfo.github.io/papers/), and are developing piplines and software [software](https://neurobioinfo.github.io/software/).
+<h2 id="bibliography">Bibliography:</h2>
 
-If you are interested in collaborating and doing some great work, please reach out to me via: [this link](https://forms.clickup.com/f/c0qg2-87/ZA5RVAIEIX2YE3LHPV) or <br>
-by [e-mail to neurobioinfo@mcgill.ca](mailto:neurobioinfo@mcgill.ca) 
-
-
-
-
-
-<p>
-
-
-<div class="contact-buttons" style="line-height:160%;margin-left:30px;margin-top:10px">
-<p>
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="//neurobioinfo.github.io/css/academicons.css">
-  <a href="mailto:neurobioinfo@mcgill.ca" target="_blank" style="color:#855f65;"><i class="fa fa-envelope" style="font-size:1em"></i> &nbsp; Email<br></a>
-<a href="https://github.com/neurobioinfo" target="_blank" style="color:#0e5295;"><i class="fa fa-github" aria-hidden="true"></i> &nbsp; GitHub<br></a>
-</p>
-</div>
-
-<ul>
----
-    Bioinfo 's Adv
----
-  
-    <li><span>07 Jan 2022</span> &raquo; <a href="/_posts/data_management" title="Data Management at the Neurobioinfo">Data Management at the Neurobioinfo</a></li>
-  
-    <li><span>07 Jan 2022</span> &raquo; <a href="/2022/01/WGS.html" title="Whole-genome/exome mapping and variant calling Analysis">Whole-genome/exome mapping and variant calling Analysis</a></li>
-  
-    <li><span>06 Jan 2022</span> &raquo; <a href="/2022/01/segregation.html" title="Segregation Analysis">Segregation Analysis</a></li>
-  
-    <li><span>05 Jan 2022</span> &raquo; <a href="/2022/01/rna.html" title="RNA-Seq Analysis">RNA-Seq Analysis</a></li>
-  
-    <li><span>04 Jan 2022</span> &raquo; <a href="/2022/01/rna_dea.html" title="RNA-Seq and Differential Expression Analysis">RNA-Seq and Differential Expression Analysis</a></li>
-  
-    <li><span>03 Jan 2022</span> &raquo; <a href="/2022/01/mirna.html" title="miRNA-Seq Analysis">miRNA-Seq Analysis</a></li>
-  
-    <li><span>02 Jan 2022</span> &raquo; <a href="/_posts/" title="scRNA-Seq Analysis">scRNA-Seq Analysis</a></li>
-  
-    <li><span>01 Jan 2022</span> &raquo; <a href="/2022/01/data_management.html" title="Data Management at the Neurobioinfo">Data Management at the Neurobioinfo</a></li>
-  
-    
-</ul>
-
-<br>
-
--->
-
+<ol>
+  <li>Wikipedia entry for microRNA: https://en.wikipedia.org/wiki/MicroRNA</li>
+  <li>Pratibha Potlaab, Shabana AmandaAli, Mohit Kapoor A bioinformatics approach to microRNA-sequencing analysis https://www.sciencedirect.com/science/article/pii/S266591312030131X</li>
+  <li>Bioinformatic Analysis of MicroRNA Sequencing Data. Fu X, Dong D. Methods Mol Biol. 2018;1751:109-125. PMID: 29508293 and as a PDF on ResearchGate</li>
+</ol>
 
   </article>
 
