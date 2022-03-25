@@ -1,0 +1,64 @@
+I"#<p><img src="https://www.mcgill.ca/neuro/files/neuro/moriarty_logo.png" alt="Neuro_logo" width="200" /></p>
+
+<h1 id="the-neuro-bioinformatics-core-facility">The Neuro Bioinformatics Core Facility</h1>
+
+<p>The mission of the Neuro Bioinformatics Core Facility is to support and facilitate the best workflows and bioinformatics best practices to enable and empower the scientific community at the Neuro interested in computational biology and bioinformatics work. This will usually involve employing one of our existing workflows or inviting us to develop new ones.</p>
+
+<p>To start working with us we ask that you first fill out our initial intake form which we will follow with a meeting allowing us to gather the necessary information so we can start on the work you want us to do with you.</p>
+
+<p><a href="https://forms.clickup.com/f/c0qg2-87/ZA5RVAIEIX2YE3LHPV">INTAKE FORM</a></p>
+
+<p>We are a <a href="https://neurobioinfo.github.io/team">team</a> of dedicated and skilled bioinformatics people, ready to address any genomic and genetic analysis for 1 or 1,000 samples (or more). If you do not see the workflow that can address your bioinformatics needs, contact us at <a href="mailto:neurobioinfo@mcgill.ca">neurobioinfo@mcgill.ca</a> and we will be happy to address your specific need(s).</p>
+
+<!--- You have reached A test webpage of Neuro's Bioinfornatics Core web portal. ; this website is....
+
+We are interested in Bioinformatics, developing algorithms, and working on projects with the <br>
+Montréal Neurological community and the academic and industry communities. <br>
+We do [research](https://neurobioinfo.github.io/papers/), and are developing piplines and software [software](https://neurobioinfo.github.io/software/).
+
+If you are interested in collaborating and doing some great work, please reach out to me via: [this link](https://forms.clickup.com/f/c0qg2-87/ZA5RVAIEIX2YE3LHPV) or <br>
+by [e-mail to neurobioinfo@mcgill.ca](mailto:neurobioinfo@mcgill.ca) 
+
+
+
+
+
+<p>
+
+
+<div class="contact-buttons" style="line-height:160%;margin-left:30px;margin-top:10px">
+<p>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//neurobioinfo.github.io/css/academicons.css">
+  <a href="mailto:neurobioinfo@mcgill.ca" target="_blank" style="color:#855f65;"><i class="fa fa-envelope" style="font-size:1em"></i> &nbsp; Email<br></a>
+<a href="https://github.com/neurobioinfo" target="_blank" style="color:#0e5295;"><i class="fa fa-github" aria-hidden="true"></i> &nbsp; GitHub<br></a>
+</p>
+</div>
+
+<ul>
+---
+    Bioinfo 's Adv
+---
+  
+    <li><span>25 Mar 2022</span> &raquo; <a href="/2022/03/2022-01-01-data_management.html" title=""></a></li>
+  
+    <li><span>07 Jan 2022</span> &raquo; <a href="/_posts/wgs" title="Whole-genome/exome mapping and variant calling Analysis">Whole-genome/exome mapping and variant calling Analysis</a></li>
+  
+    <li><span>06 Jan 2022</span> &raquo; <a href="/_posts/segregation" title="Segregation Analysis">Segregation Analysis</a></li>
+  
+    <li><span>05 Jan 2022</span> &raquo; <a href="/_posts/rna" title="RNA-Seq Analysis">RNA-Seq Analysis</a></li>
+  
+    <li><span>04 Jan 2022</span> &raquo; <a href="/_posts/rna_dea" title="RNA-Seq and Differential Expression Analysis">RNA-Seq and Differential Expression Analysis</a></li>
+  
+    <li><span>03 Jan 2022</span> &raquo; <a href="/_posts/mirna" title="miRNA-Seq Analysis">miRNA-Seq Analysis</a></li>
+  
+    <li><span>02 Jan 2022</span> &raquo; <a href="/_posts/scrna" title="scRNA-Seq Analysis">scRNA-Seq Analysis</a></li>
+  
+    
+</ul>
+
+<br>
+
+-->
+
+:ET

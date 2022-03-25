@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-25T13:09:14-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Neuro Bioinformatics Core</title><subtitle></subtitle><entry><title type="html">Whole-genome/exome mapping and variant calling Analysis</title><link href="http://localhost:4000/2022/01/WGS.html" rel="alternate" type="text/html" title="Whole-genome/exome mapping and variant calling Analysis" /><published>2022-01-07T00:00:00-05:00</published><updated>2022-01-07T00:00:00-05:00</updated><id>http://localhost:4000/2022/01/WGS</id><content type="html" xml:base="http://localhost:4000/2022/01/WGS.html"><![CDATA[<h1 id="whole-genomeexome-mapping-and-variant-calling-analysis">Whole-genome/exome mapping and variant calling Analysis</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-25T13:27:01-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Neuro Bioinformatics Core</title><subtitle></subtitle><entry><title type="html"></title><link href="http://localhost:4000/2022/03/2022-01-01-data_management.html" rel="alternate" type="text/html" title="" /><published>2022-03-25T13:27:01-04:00</published><updated>2022-03-25T13:27:01-04:00</updated><id>http://localhost:4000/2022/03/2022-01-01-data_management</id><content type="html" xml:base="http://localhost:4000/2022/03/2022-01-01-data_management.html"><![CDATA[<h1 id="data-management">Data Management</h1>
+
+<p>Managing one’s sequencing data is an ongoing task that we are pleased to support and for which we will with the respective plan highlight the best path forward.  Factors affecting the decisions we make will include (but are not limited to) the following availability of some or all of these documents:</p>
+
+<ul>
+  <li>The existence of a Data Management Plan (DMP) will inform on the data availability, its life cycle, and its required persistence. [1]</li>
+  <li>Metadata. [2]</li>
+  <li>Information about the scale and duration of the project.</li>
+  <li>The consent forms that were used for the study in question.</li>
+  <li>The availability of a data access committee that will oversee the controlled access of the data.</li>
+  <li>The availability of sufficient computer infrastructure.</li>
+  <li>The availability of necessary funds to carry out the analysis and storage for the project.</li>
+  <li>In many cases, your supervisor and yourself will need to get started by setting up a Compute Canada at McGill [3].</li>
+</ul>
+
+<h2 id="bibliography">Bibliography:</h2>
+
+<ol>
+  <li><a href="https://www.mcgill.ca/neuro/open-science/open-science-best-practices/what-data-management-plan-dmp">Data Management Plan documentation on the Neuro Web site.</a></li>
+  <li><a href="https://arxiv.org/pdf/cs/0502008.pdf">Scientific Data Management in the Coming Decade. Jim Gray, David T. Liu, Maria Nieto-Santisteban &amp; Alexander S. Szalay, David DeWitt, Wisconsin Gerd Heber, 2005</a></li>
+  <li><a href="https://acelab.cbrain.mcgill.ca/doku.php?id=obtaining_a_compute_canada_account">Opening a Compute Canada Account at McGill.</a>
+<img src="" alt="" /></li>
+</ol>]]></content><author><name></name></author></entry><entry><title type="html">Whole-genome/exome mapping and variant calling Analysis</title><link href="http://localhost:4000/_posts/wgs" rel="alternate" type="text/html" title="Whole-genome/exome mapping and variant calling Analysis" /><published>2022-01-07T00:00:00-05:00</published><updated>2022-01-07T00:00:00-05:00</updated><id>http://localhost:4000/_posts/WGS</id><content type="html" xml:base="http://localhost:4000/_posts/wgs"><![CDATA[<h1 id="whole-genomeexome-mapping-and-variant-calling-analysis">Whole-genome/exome mapping and variant calling Analysis</h1>
 
 <p><img src="/wf/WF05_WGS_workflow_ver07.jpg" alt="Whole Genome and Exome Analysis" title="Whole Genome and Exome Analysis" /></p>
 
@@ -34,29 +56,7 @@
   <li>Original Link where workflow was first presented: Illumina <a href="https://support.illumina.com/content/dam/illumina-support/help/Illumina_DRAGEN_Bio_IT_Platform_v3_7_1000000141465/Content/SW/Informatics/Dragen/GPipelineIntro_fDG.htm">DRAGEN DNA Pipeline</a></li>
   <li>Reliable variant calling during runtime of Illumina sequencing. Loka TP, Tausch SH, Renard BY. Sci Rep. 2019 Nov 11;9(1):16502 PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/31712740/">31712740</a> (This publication is not from Illumina, but it represents an early publication that references DRAGEN.)</li>
   <li>From the GATK portal: <a href="https://gatk.broadinstitute.org/hc/en-us/articles/360045944831">DRAGEN-GATK – GATK</a></li>
-</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Whole-genome/exome mapping and variant calling Analysis]]></summary></entry><entry><title type="html">Data Management at the Neurobioinfo</title><link href="http://localhost:4000/_posts/data_management" rel="alternate" type="text/html" title="Data Management at the Neurobioinfo" /><published>2022-01-07T00:00:00-05:00</published><updated>2022-01-07T00:00:00-05:00</updated><id>http://localhost:4000/_posts/data_management</id><content type="html" xml:base="http://localhost:4000/_posts/data_management"><![CDATA[<h1 id="data-management">Data Management</h1>
-
-<p>Managing one’s sequencing data is an ongoing task that we are pleased to support and for which we will with the respective plan highlight the best path forward.  Factors affecting the decisions we make will include (but are not limited to) the following availability of some or all of these documents:</p>
-
-<ul>
-  <li>The existence of a Data Management Plan (DMP) will inform on the data availability, its life cycle, and its required persistence. [1]</li>
-  <li>Metadata. [2]</li>
-  <li>Information about the scale and duration of the project.</li>
-  <li>The consent forms that were used for the study in question.</li>
-  <li>The availability of a data access committee that will oversee the controlled access of the data.</li>
-  <li>The availability of sufficient computer infrastructure.</li>
-  <li>The availability of necessary funds to carry out the analysis and storage for the project.</li>
-  <li>In many cases, your supervisor and yourself will need to get started by setting up a Compute Canada at McGill [3].</li>
-</ul>
-
-<h2 id="bibliography">Bibliography:</h2>
-
-<ol>
-  <li><a href="https://www.mcgill.ca/neuro/open-science/open-science-best-practices/what-data-management-plan-dmp">Data Management Plan documentation on the Neuro Web site.</a></li>
-  <li><a href="https://arxiv.org/pdf/cs/0502008.pdf">Scientific Data Management in the Coming Decade. Jim Gray, David T. Liu, Maria Nieto-Santisteban &amp; Alexander S. Szalay, David DeWitt, Wisconsin Gerd Heber, 2005</a></li>
-  <li><a href="https://acelab.cbrain.mcgill.ca/doku.php?id=obtaining_a_compute_canada_account">Opening a Compute Canada Account at McGill.</a>
-<img src="" alt="" /></li>
-</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Data Management]]></summary></entry><entry><title type="html">Segregation Analysis</title><link href="http://localhost:4000/2022/01/segregation.html" rel="alternate" type="text/html" title="Segregation Analysis" /><published>2022-01-06T00:00:00-05:00</published><updated>2022-01-06T00:00:00-05:00</updated><id>http://localhost:4000/2022/01/segregation</id><content type="html" xml:base="http://localhost:4000/2022/01/segregation.html"><![CDATA[<h1 id="segregation-analysis">Segregation Analysis</h1>
+</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Whole-genome/exome mapping and variant calling Analysis]]></summary></entry><entry><title type="html">Segregation Analysis</title><link href="http://localhost:4000/_posts/segregation" rel="alternate" type="text/html" title="Segregation Analysis" /><published>2022-01-06T00:00:00-05:00</published><updated>2022-01-06T00:00:00-05:00</updated><id>http://localhost:4000/_posts/segregation</id><content type="html" xml:base="http://localhost:4000/_posts/segregation"><![CDATA[<h1 id="segregation-analysis">Segregation Analysis</h1>
 
 <!-- ![Segregation](/wf/Fig05_Variant_Segregation.jpg "Fig05_Variant_Segregation") -->
 
@@ -174,7 +174,7 @@ parser.sub_seg(destfolder, header_need)
 <h2 id="bibliography">Bibliography:</h2>
 <ol>
   <li><a href="https://hail.is/references.html">Hail-Powered Science. An incomplete list of scientific work enabled by Hail</a>.</li>
-</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Segregation Analysis]]></summary></entry><entry><title type="html">RNA-Seq Analysis</title><link href="http://localhost:4000/2022/01/rna.html" rel="alternate" type="text/html" title="RNA-Seq Analysis" /><published>2022-01-05T00:00:00-05:00</published><updated>2022-01-05T00:00:00-05:00</updated><id>http://localhost:4000/2022/01/rna</id><content type="html" xml:base="http://localhost:4000/2022/01/rna.html"><![CDATA[<h1 id="rna-seq-analysis">RNA-Seq Analysis</h1>
+</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Segregation Analysis]]></summary></entry><entry><title type="html">RNA-Seq Analysis</title><link href="http://localhost:4000/_posts/rna" rel="alternate" type="text/html" title="RNA-Seq Analysis" /><published>2022-01-05T00:00:00-05:00</published><updated>2022-01-05T00:00:00-05:00</updated><id>http://localhost:4000/_posts/rna</id><content type="html" xml:base="http://localhost:4000/_posts/rna"><![CDATA[<h1 id="rna-seq-analysis">RNA-Seq Analysis</h1>
 
 <p><img src="/wf/WF01_RNASeq_workflow_ver04.jpg" alt="RNA-Seq Analysis" title="RNA-Seq Analysis" /></p>
 
@@ -201,7 +201,7 @@ Transcript quantification and variance estimation are generated by bootstraps sa
   <li>Alignment and mapping methodology influence transcript abundance estimation. Srivastava A, Malik L, Sarkar H, Zakeri M, Almodaresi F, Soneson C, Love MI, Kingsford C, Patro R. Genome Biol. 2020 Sep 7;21(1):239. <a href="https://doi.org/10.1186/s13059-020-02151-8">DOI 10.1186/s13059-020-02151-8</a> PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/32894187/">32894187</a> </li>
   <li>GenPipes: an open-source framework for distributed and scalable genomic analyses. Bourgey M, Dali R, Eveleigh R, Chen KC, Letourneau L, Fillon J, Michaud M, Caron M, Sandoval J, Lefebvre F, Leveque G, Mercier E, Bujold D, Marquis P, Van PT, Anderson de Lima Morais D, Tremblay J, Shao X, Henrion E, Gonzalez E, Quirion PO, Caron B, Bourque G. Gigascience. 2019 Jun 1;8(6):giz037. <a href="https://academic.oup.com/gigascience/article/8/6/giz037/5513895">DOI:10.1093/gigascience/giz037</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/31185495/">31185495</a>  </li>
   <li>Obi L. Griffith, Malachi Griffith, Zachary L. Skidmore, Huiming Xia, Erica Barnell, Sharon Freshour, Jeff Szymanski, and Katie Campbell. Wahington University, St-Louis, MO, USA. <a href="https://griffithlab.org/">https://griffithlab.org/</a> -  <a href="https://pmbio.org/module-06-rnaseq/0006/01/01/Intro_to_RNAseq_Analysis/">Intro to RNAseq Analysis</a>.</li>
-</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[RNA-Seq Analysis]]></summary></entry><entry><title type="html">RNA-Seq and Differential Expression Analysis</title><link href="http://localhost:4000/2022/01/rna_dea.html" rel="alternate" type="text/html" title="RNA-Seq and Differential Expression Analysis" /><published>2022-01-04T00:00:00-05:00</published><updated>2022-01-04T00:00:00-05:00</updated><id>http://localhost:4000/2022/01/rna_dea</id><content type="html" xml:base="http://localhost:4000/2022/01/rna_dea.html"><![CDATA[<h1 id="rna-seq-and-differential-expression-gene-analysis">RNA-Seq and Differential Expression Gene Analysis</h1>
+</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[RNA-Seq Analysis]]></summary></entry><entry><title type="html">RNA-Seq and Differential Expression Analysis</title><link href="http://localhost:4000/_posts/rna_dea" rel="alternate" type="text/html" title="RNA-Seq and Differential Expression Analysis" /><published>2022-01-04T00:00:00-05:00</published><updated>2022-01-04T00:00:00-05:00</updated><id>http://localhost:4000/_posts/rna_dea</id><content type="html" xml:base="http://localhost:4000/_posts/rna_dea"><![CDATA[<h1 id="rna-seq-and-differential-expression-gene-analysis">RNA-Seq and Differential Expression Gene Analysis</h1>
 
 <p><img src="/wf/WF02_RNASeq_DEG_workflow_ver04.jpg" alt="RNA-Seq and DEA" title="RNASeq DEA workflow" /></p>
 
@@ -232,7 +232,7 @@ Transcript quantification and variance estimation are generated by bootstraps sa
   <li>Alignment and mapping methodology influence transcript abundance estimation. Srivastava A, Malik L, Sarkar H, Zakeri M, Almodaresi F, Soneson C, Love MI, Kingsford C, Patro R. Genome Biol. 2020 Sep 7;21(1):239.  PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/32894187/">32894187</a></li>
   <li>Differential analysis of RNA-seq incorporating quantification uncertainty. Pimentel H, Bray NL, Puente S, Melsted P, Pachter L. Nat Methods. 2017 Jul;14(7):687-690. doi: 10.1038/nmeth.4324. Epub 2017 Jun 5. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/28581496/">28581496</a></li>
   <li>GenPipes: an open-source framework for distributed and scalable genomic analyses. Bourgey M, Dali R, Eveleigh R, Chen KC, Letourneau L, Fillon J, Michaud M, Caron M, Sandoval J, Lefebvre F, Leveque G, Mercier E, Bujold D, Marquis P, Van PT, Anderson de Lima Morais D, Tremblay J, Shao X, Henrion E, Gonzalez E, Quirion PO, Caron B, Bourque G. Gigascience. 2019 Jun 1;8(6):giz037. doi: 10.1093/gigascience/giz037. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/31185495/">31185495</a></li>
-</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[RNA-Seq and Differential Expression Gene Analysis]]></summary></entry><entry><title type="html">miRNA-Seq Analysis</title><link href="http://localhost:4000/2022/01/mirna.html" rel="alternate" type="text/html" title="miRNA-Seq Analysis" /><published>2022-01-03T00:00:00-05:00</published><updated>2022-01-03T00:00:00-05:00</updated><id>http://localhost:4000/2022/01/mirna</id><content type="html" xml:base="http://localhost:4000/2022/01/mirna.html"><![CDATA[<h1 id="mirna-seq-analysis">miRNA-Seq Analysis</h1>
+</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[RNA-Seq and Differential Expression Gene Analysis]]></summary></entry><entry><title type="html">miRNA-Seq Analysis</title><link href="http://localhost:4000/_posts/mirna" rel="alternate" type="text/html" title="miRNA-Seq Analysis" /><published>2022-01-03T00:00:00-05:00</published><updated>2022-01-03T00:00:00-05:00</updated><id>http://localhost:4000/_posts/mirna</id><content type="html" xml:base="http://localhost:4000/_posts/mirna"><![CDATA[<h1 id="mirna-seq-analysis">miRNA-Seq Analysis</h1>
 
 <p><img src="/wf/WF03_miRNASeq_workflow_ver03.jpg" alt="miRNA-Seq Analysis" title="miRNASeq Analysis" /></p>
 
@@ -261,9 +261,9 @@ i. <a href="https://bioconductor.org/packages/release/bioc/html/DESeq2.html">Des
   <li>Wikipedia entry for microRNA: https://en.wikipedia.org/wiki/MicroRNA</li>
   <li>Pratibha Potlaab, Shabana AmandaAli, Mohit Kapoor A bioinformatics approach to microRNA-sequencing analysis https://www.sciencedirect.com/science/article/pii/S266591312030131X</li>
   <li>Bioinformatic Analysis of MicroRNA Sequencing Data. Fu X, Dong D. Methods Mol Biol. 2018;1751:109-125. PMID: 29508293 and as a PDF on ResearchGate</li>
-</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[miRNA-Seq Analysis]]></summary></entry><entry><title type="html">scRNA-Seq Analysis</title><link href="http://localhost:4000/_posts/" rel="alternate" type="text/html" title="scRNA-Seq Analysis" /><published>2022-01-02T00:00:00-05:00</published><updated>2022-01-02T00:00:00-05:00</updated><id>http://localhost:4000/scrna</id><content type="html" xml:base="http://localhost:4000/_posts/"><![CDATA[<h1 id="single-cell-rna-seq-analysis">Single Cell RNA-Seq Analysis</h1>
+</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[miRNA-Seq Analysis]]></summary></entry><entry><title type="html">scRNA-Seq Analysis</title><link href="http://localhost:4000/_posts/scrna" rel="alternate" type="text/html" title="scRNA-Seq Analysis" /><published>2022-01-02T00:00:00-05:00</published><updated>2022-01-02T00:00:00-05:00</updated><id>http://localhost:4000/_posts/scrna</id><content type="html" xml:base="http://localhost:4000/_posts/scrna"><![CDATA[<h1 id="single-cell-rna-seq-analysis">Single Cell RNA-Seq Analysis</h1>
 
-<p><img src="/_posts/WF04_scRNASeq_workflow_ver03.jpg" alt="scRNA-Seq Analysis" title="scRNASeq Analysis" /></p>
+<p><img src="/wf/WF04_scRNASeq_workflow_ver02.jpg" alt="scRNA-Seq Analysis" title="scRNASeq Analysis" /></p>
 
 <h2 id="scrna-seq-seurat-workflow-automation">ScRNA-Seq Seurat workflow automation.</h2>
 
@@ -301,26 +301,4 @@ Downstream integrated analysis includes: Dimensional reduction and clustering, c
   <li>Stoeckius M, Zheng S, Houck-Loomis B, Hao S, Yeung BZ, Mauck WM, et al. (2018) Cell Hashing with barcoded antibodies enables multiplexing and doublet detection for single cell genomics. Genome Biology. 19, 224. <a href="https://doi.org/10.1186/s13059-018-1603-1">Internet</a></li>
   <li>Satija R, Farrell JA, Gennert D, Schier AF, Regev A. (2015) Spatial reconstruction of single-cell gene expression data. Nature Biotechnology [Internet]. 33, 495–502. <a href="https://doi.org/10.1038/nbt.3192">Internet</a></li>
   <li>10X Genomic. Cell Ranger. What is cellplex. <a href="https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cellplex">Internet</a></li>
-</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Single Cell RNA-Seq Analysis]]></summary></entry><entry><title type="html">Data Management at the Neurobioinfo</title><link href="http://localhost:4000/2022/01/data_management.html" rel="alternate" type="text/html" title="Data Management at the Neurobioinfo" /><published>2022-01-01T00:00:00-05:00</published><updated>2022-01-01T00:00:00-05:00</updated><id>http://localhost:4000/2022/01/data_management</id><content type="html" xml:base="http://localhost:4000/2022/01/data_management.html"><![CDATA[<h1 id="data-management">Data Management</h1>
-
-<p>Managing one’s sequencing data is an ongoing task that we are pleased to support and for which we will with the respective plan highlight the best path forward.  Factors affecting the decisions we make will include (but are not limited to) the following availability of some or all of these documents:</p>
-
-<ul>
-  <li>The existence of a Data Management Plan (DMP) will inform on the data availability, its life cycle, and its required persistence. [1]</li>
-  <li>Metadata. [2]</li>
-  <li>Information about the scale and duration of the project.</li>
-  <li>The consent forms that were used for the study in question.</li>
-  <li>The availability of a data access committee that will oversee the controlled access of the data.</li>
-  <li>The availability of sufficient computer infrastructure.</li>
-  <li>The availability of necessary funds to carry out the analysis and storage for the project.</li>
-  <li>In many cases, your supervisor and yourself will need to get started by setting up a Compute Canada at McGill [3].</li>
-</ul>
-
-<h2 id="bibliography">Bibliography:</h2>
-
-<ol>
-  <li><a href="https://www.mcgill.ca/neuro/open-science/open-science-best-practices/what-data-management-plan-dmp">Data Management Plan documentation on the Neuro Web site.</a></li>
-  <li><a href="https://arxiv.org/pdf/cs/0502008.pdf">Scientific Data Management in the Coming Decade. Jim Gray, David T. Liu, Maria Nieto-Santisteban &amp; Alexander S. Szalay, David DeWitt, Wisconsin Gerd Heber, 2005</a></li>
-  <li><a href="https://acelab.cbrain.mcgill.ca/doku.php?id=obtaining_a_compute_canada_account">Opening a Compute Canada Account at McGill.</a>
-<img src="" alt="" /></li>
-</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Data Management]]></summary></entry></feed>
+</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Single Cell RNA-Seq Analysis]]></summary></entry></feed>
