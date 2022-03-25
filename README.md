@@ -12,7 +12,7 @@ workflows and various help documentation.
   * [RNA-Seq and Differential Expression Analysis](/wf/rna_dea.md)
   * [miRNA-Seq Analysis](/wf/mirna.md)
   * [scRNA-Seq Analysis](/wf/scrna.md)
-  * [Whole-Genome/Exome Mapping and Variant Calling Analysis](/wf/wga.md)
+  * [Whole-Genome/Exome Mapping and Variant Calling Analysis](/wf/wgs.md)
   * [Segregation Analysis](/wf/segregation.md)
  * [Data Management](/wf/data_management.md) 
 * [The team](team.md)

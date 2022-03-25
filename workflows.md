@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Workflows
-permalink: workflows
+permalink: workflows/
 ---
 
 #Workflows
