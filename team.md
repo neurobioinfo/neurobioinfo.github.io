@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The NeuroBioinfo team members
-permalink: Ourteam/
+permalink: team/
 ---
 
 
