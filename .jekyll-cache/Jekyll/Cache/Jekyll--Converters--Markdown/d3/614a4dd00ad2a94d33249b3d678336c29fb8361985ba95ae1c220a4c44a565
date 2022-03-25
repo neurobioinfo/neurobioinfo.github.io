@@ -1,0 +1,31 @@
+I"Þ<h1 id="mirna-seq-analysis">miRNA-Seq Analysis</h1>
+
+<p><img src="/wf/WF03_miRNASeq_workflow_ver03.jpg" alt="miRNA-Seq Analysis" title="miRNASeq Analysis" /></p>
+
+<h2 id="mirna-seq-gene-product-abundance-and-discovery">miRNA-Seq, gene product abundance and discovery.</h2>
+
+<p>A microRNA (abbreviated miRNA) is a small single-stranded non-coding RNA molecule (containing about 22 nucleotides) found in plants, animals and some viruses, that functions in RNA silencing and post-transcriptional regulation of gene expression. miRNAs function via base-pairing with complementary sequences within mRNA molecules. As a result, these mRNA molecules are silenced, by one or more of the following processes: (1) cleavage of the mRNA strand into two pieces, (2) destabilization of the mRNA through shortening of its poly(A) tail, and (3) less efficient translation of the mRNA into proteins by ribosomes. (Definition from Wikipedia: microRNA) [1]</p>
+
+<h3 id="short-description-of-the-workflow-and-its-purpose">Short description of the workflow and its purpose:</h3>
+<p>This workflow takes as input miRNA sequence reads (presumably with Unique Molecular Identifiers (UMIs))  in FASTQ format and uses a number of tools to QC, trim, map, analyze, count and do a differential gene expression depending on your experimental design. All of these tools and workflow were extracted from the Potlaab and colleagues publication[2]. Other details on Bioinformatic Analysis of MicroRNA Sequencing Data are also described in the publication from Fu and Dong [3].</p>
+
+<h3 id="tools-used-in-this-workflow">Tools used in this workflow:</h3>
+
+<p>a. <a href="https://www.bioinformatics.babraham.ac.uk/projects/fastqc/">Fastqc</a><br />
+b. <a href="https://github.com/CGATOxford/UMI-tools">UMI-tools</a><br />
+c. <a href="https://cutadapt.readthedocs.io/en/stable/guide.html">Cutadapt</a><br />
+d. <a href="http://bowtie-bio.sourceforge.net/index.shtml">Bowtie1</a><br />
+e. <a href="https://www.sciencedirect.com/science/article/pii/S266591312030131X">Custom scripts [1]</a><br />
+f. <a href="https://www.htslib.org">Samtools</a> + <a href="https://software.broadinstitute.org/cancer/cga/rna-seqc">RNAseqc</a><br />
+g. <a href="https://github.com/rajewsky-lab/mirdeep2">miRDeep2</a><br />
+h. <a href="https://www.sciencedirect.com/science/article/pii/S266591312030131X">Custom scripts [3]</a><br />
+i. <a href="https://bioconductor.org/packages/release/bioc/html/DESeq2.html">Deseq2</a> + <a href="https://bioconductor.org/packages/release/bioc/html/edgeR.html">Edger2</a><br /></p>
+
+<h2 id="bibliography">Bibliography:</h2>
+
+<ol>
+  <li>Wikipedia entry for microRNA: https://en.wikipedia.org/wiki/MicroRNA</li>
+  <li>Pratibha Potlaab, Shabana AmandaAli, Mohit Kapoor A bioinformatics approach to microRNA-sequencing analysis https://www.sciencedirect.com/science/article/pii/S266591312030131X</li>
+  <li>Bioinformatic Analysis of MicroRNA Sequencing Data. Fu X, Dong D. Methods Mol Biol. 2018;1751:109-125. PMID:Â 29508293 and as a PDF on ResearchGate</li>
+</ol>
+:ET

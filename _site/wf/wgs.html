@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Whole-genome/exome mapping and variant calling Analysis &middot; The Neuro Bioinformatics Core
+    
+  </title>
+
+  <!-- CSS -->
+ 	<!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+   <link rel="stylesheet" href="/public/css/lanyon.css">
+
+        <link href="/css/blog.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/pygments.css">
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p></p>
+  </div>
+<div class="contact-buttons" style="line-height:160%;margin-left:30px;margin-top:10px">
+<p>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//neurobioinfo.github.io/css/academicons.css">
+  <a href="mailto:neurobioinfo@mcgill.ca" target="_blank" style="color:#855f65;"><i class="fa fa-envelope" style="font-size:1em"></i> &nbsp </a>
+<a href="https://github.com/neurobioinfo" target="_blank" style="color:#855f65;"><i class="fa fa-github" aria-hidden="true"></i> &nbsp </a>
+<a href="https://www.researchgate.net/profile/Saeid_Amiri6" target="_blank" style="color:#855f65;"><i class="ai ai-researchgate ai-3x" style="font-size:1em"></i> &nbsp <br></a> 
+<a href="https://scholar.google.com/citations?user=iroPmuAAAAAJ&hl=en" target="_blank" style="color:#855f65;"><i class="ai ai-google-scholar-square ai-3x" style="font-size:1em"></i> &nbsp </a>
+</p>
+</div>
+     
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+        <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/">The NeuroBioinfo Home</a>
+        <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/team">The NeuroBioinfo team</a>
+        <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/software/">Software</a>
+        <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/wf/">Workflows</a>
+        <!-- <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/blog">Blog</a> 
+        <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/papers/">Technical report</a>--> 
+        <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/tutorials/">Tutorials</a>
+        <!-- <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/Misc">Misc</a> -->
+        <a class="sidebar-nav-item" href="https://github.com/neurobioinfo">GitHub</a>
+        <!-- <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/tags">Tags</a> -->
+
+  </nav>
+
+  <div class="sidebar-item">
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+          <h3 class="masthead-title">
+            <a href="/" title="Home">The Neuro Bioinformatics Core</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Whole-genome/exome mapping and variant calling Analysis &middot; The Neuro Bioinformatics Core
+    
+  </title>
+
+  <!-- CSS -->
+ 	<!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+   <link rel="stylesheet" href="/public/css/lanyon.css">
+
+        <link href="/css/blog.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/pygments.css">
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+<div class="post">
+  
+
+  <article class="post-content">
+    <h1 id="whole-genomeexome-mapping-and-variant-calling-analysis">Whole-genome/exome mapping and variant calling Analysis</h1>
+
+<p><img src="/wf/WF05_WGS_workflow_ver07.jpg" alt="Whole Genome and Exome Analysis" title="Whole Genome and Exome Analysis" /></p>
+
+<h2 id="secondary-analysis-of-wgs-dnaseq-data-using-illumina-dragen">Secondary analysis of WGS DNAseq data using Illumina DRAGEN</h2>
+
+<p>Secondary analysis of whole-genome sequencing (WGS) or whole-exome sequencing (WES) is currently commonly performed at the Neuro Bioinformatics Core Facility and requires some input from the users about where the input files are, and what annotations are necessary. Some care should also be given to the control samples you want to use or have available in your own study.</p>
+
+<ul>
+  <li>
+    <p>Short description of the workflow and its purpose:</p>
+  </li>
+  <li>
+    <p>Run full per-sample secondary analysis pipeline on Illumina DRAGEN Bio-IT, via cloud-based Illumina Connected Analytics (ICA) platform.</p>
+  </li>
+  <li>Generates per-sample: 
+    <ul>
+      <li>Alignment</li>
+      <li>small variant calls</li>
+      <li>Copy-Number Variant (CNV) calls</li>
+      <li>Structural Variant (SV) calls</li>
+      <li>Repeat expansions</li>
+      <li>Per-chromosome ploidy calls</li>
+      <li>Runs of heterozygosity</li>
+      <li>Various QC metrics</li>
+    </ul>
+  </li>
+  <li>Raw samples sequences are uploaded to ICA, passed through the Dragen Germline pipeline, then outputs are downloaded back to Compute Canada HPC (beluga server).</li>
+</ul>
+
+<h2 id="bibliography">Bibliography:</h2>
+
+<ol>
+  <li>Original Link where workflow was first presented: Illumina <a href="https://support.illumina.com/content/dam/illumina-support/help/Illumina_DRAGEN_Bio_IT_Platform_v3_7_1000000141465/Content/SW/Informatics/Dragen/GPipelineIntro_fDG.htm">DRAGEN DNA Pipeline</a></li>
+  <li>Reliable variant calling during runtime of Illumina sequencing. Loka TP, Tausch SH, Renard BY. Sci Rep. 2019 Nov 11;9(1):16502 PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/31712740/">31712740</a> (This publication is not from Illumina, but it represents an early publication that references DRAGEN.)</li>
+  <li>From the GATK portal: <a href="https://gatk.broadinstitute.org/hc/en-us/articles/360045944831">DRAGEN-GATK – GATK</a></li>
+</ol>
+
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+   <script id="dsq-count-scr" src="//neurobioinfo-github-io.disqus.com/count.js" async></script>
+  </body>
+</html>

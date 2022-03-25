@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      scRNA-Seq Analysis &middot; The Neuro Bioinformatics Core
+    
+  </title>
+
+  <!-- CSS -->
+ 	<!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+   <link rel="stylesheet" href="/public/css/lanyon.css">
+
+        <link href="/css/blog.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/pygments.css">
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p></p>
+  </div>
+<div class="contact-buttons" style="line-height:160%;margin-left:30px;margin-top:10px">
+<p>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//neurobioinfo.github.io/css/academicons.css">
+  <a href="mailto:neurobioinfo@mcgill.ca" target="_blank" style="color:#855f65;"><i class="fa fa-envelope" style="font-size:1em"></i> &nbsp </a>
+<a href="https://github.com/neurobioinfo" target="_blank" style="color:#855f65;"><i class="fa fa-github" aria-hidden="true"></i> &nbsp </a>
+<a href="https://www.researchgate.net/profile/Saeid_Amiri6" target="_blank" style="color:#855f65;"><i class="ai ai-researchgate ai-3x" style="font-size:1em"></i> &nbsp <br></a> 
+<a href="https://scholar.google.com/citations?user=iroPmuAAAAAJ&hl=en" target="_blank" style="color:#855f65;"><i class="ai ai-google-scholar-square ai-3x" style="font-size:1em"></i> &nbsp </a>
+</p>
+</div>
+     
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+        <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/">The NeuroBioinfo Home</a>
+        <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/team">The NeuroBioinfo team</a>
+        <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/software/">Software</a>
+        <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/wf/">Workflows</a>
+        <!-- <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/blog">Blog</a> 
+        <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/papers/">Technical report</a>--> 
+        <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/tutorials/">Tutorials</a>
+        <!-- <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/Misc">Misc</a> -->
+        <a class="sidebar-nav-item" href="https://github.com/neurobioinfo">GitHub</a>
+        <!-- <a class="sidebar-nav-item" href="https://neurobioinfo.github.io/tags">Tags</a> -->
+
+  </nav>
+
+  <div class="sidebar-item">
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+          <h3 class="masthead-title">
+            <a href="/" title="Home">The Neuro Bioinformatics Core</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      scRNA-Seq Analysis &middot; The Neuro Bioinformatics Core
+    
+  </title>
+
+  <!-- CSS -->
+ 	<!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+   <link rel="stylesheet" href="/public/css/lanyon.css">
+
+        <link href="/css/blog.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/pygments.css">
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+<div class="post">
+  
+
+  <article class="post-content">
+    <h1 id="single-cell-rna-seq-analysis">Single Cell RNA-Seq Analysis</h1>
+
+<p><img src="/wf/WF04_scRNASeq_workflow_ver03.jpg" alt="scRNA-Seq Analysis" title="scRNASeq Analysis" /></p>
+
+<h2 id="scrna-seq-seurat-workflow-automation">ScRNA-Seq Seurat workflow automation.</h2>
+
+<p>Single cell sequencing technologies measure and analyze the molecular signatures in thousands to millions of individual cells. These methods help to characterize the diversity of cell types in simple or complex tissues. 
+They have been used to study the heterogeneity of brain cell types [1], the immunological system cell diversity [2], or the heterogeneity of cell type composition in different cancer types [3].
+<br /></p>
+
+<p>Nowadays, ultra-high throughput single cell sequencing technologies can sequence millions of cells or nuclei from a single experiment across different tissues, enabling characterizing the molecular signatures for a wide range of diseases at cellular level [4]. A recently introduced approach, cell Hashing allows uniquely labelling of different experimental samples using oligonucleotide-tagged antibodies to detect cell surface proteins [5]. There exist several bioinformatics tools developed to process and analyze the high-dimensional data generated by sequence alignments and feature counting of each dataset. However, the rising accessibility to this technology and the great variability of applications in medicine and biomedical research creates a need for automatic data processing and analysis.</p>
+
+<p>Here we present a scRNA-seq workflow based on Seurat’s scRNAseq workflow for multiplexed samples [6]. This workflow aims to scale the one dataset analysis to an automated and reproducible analysis for a large number of scRNAseq datasets.</p>
+
+<h3 id="short-description-of-the-workflow-and-its-purpose">Short description of the workflow and its purpose:</h3>
+
+<p>In this workflow we analyze Cell Multiplex data. It takes as input single cell FastQ sequencing files and a feature reference, and it uses Cellranger multi pipeline to produce a matrix of UMI counts per {feature|barcode} pair, in MEX format (raw_feature_bc_matrix files) [7]. 
+This matrix is then the input for the Seurat automation workflow.
+<br /></p>
+
+<p>The workflow first demultiplexes each sample at a time and performs a quality control (QC) step. Samples demultiplexing is then followed by the integration of all samples data and a downstream integrated analysis.
+Downstream integrated analysis includes: Dimensional reduction and clustering, cell type identification, DEG, trajectory analysis and ontology pathway analysis.</p>
+
+<h3 id="tools-used-in-this-workflow">Tools used in this workflow:</h3>
+
+<ol>
+  <li><a href="https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger">Cell Ranger</a></li>
+  <li><a href="https://satijalab.org/seurat/">Seurat</a></li>
+</ol>
+
+<h2 id="bibliography">Bibliography:</h2>
+
+<ol>
+  <li>Armand EJ, Li J, Xie F, Luo C, Mukamel EA. (2021) Single-Cell Sequencing of Brain Cell Transcriptomes and Epigenomes. Neuron. 109, 11–26. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/33412093">33412093</a></li>
+  <li>See P, Lum J, Chen J, Ginhoux F. (2018) A Single-Cell Sequencing Guide for Immunologists. Front Immunol [Internet]. 9, 2425–2425. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/30405621">30405621</a></li>
+  <li>Wang W, Wang L, She J, Zhu J. (2021) Examining heterogeneity of stromal cells in tumor microenvironment based on pan-cancer single-cell RNA sequencing data. Cancer Biol Med 19, 30–42. Available from: PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/34398535">34398535</a></li>
+  <li>Ma S-X, Lim SB. (2021) Single-Cell RNA Sequencing in Parkinson’s Disease. Biomedicines. 9. <a href="https://www.mdpi.com/2227-9059/9/4/368">Internet</a></li>
+  <li>Stoeckius M, Zheng S, Houck-Loomis B, Hao S, Yeung BZ, Mauck WM, et al. (2018) Cell Hashing with barcoded antibodies enables multiplexing and doublet detection for single cell genomics. Genome Biology. 19, 224. <a href="https://doi.org/10.1186/s13059-018-1603-1">Internet</a></li>
+  <li>Satija R, Farrell JA, Gennert D, Schier AF, Regev A. (2015) Spatial reconstruction of single-cell gene expression data. Nature Biotechnology [Internet]. 33, 495–502. <a href="https://doi.org/10.1038/nbt.3192">Internet</a></li>
+  <li>10X Genomic. Cell Ranger. What is cellplex. <a href="https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cellplex">Internet</a></li>
+</ol>
+
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+   <script id="dsq-count-scr" src="//neurobioinfo-github-io.disqus.com/count.js" async></script>
+  </body>
+</html>

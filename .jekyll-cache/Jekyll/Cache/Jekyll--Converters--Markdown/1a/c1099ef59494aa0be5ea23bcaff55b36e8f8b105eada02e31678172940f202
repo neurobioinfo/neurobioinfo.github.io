@@ -1,0 +1,79 @@
+I"<h1 id="useful-resources">Useful resources</h1>
+
+<h3 id="0-9">(0-9)</h3>
+
+<ul>
+  <li><a href="https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/installation">10X Genomics: Cell Ranger Software support</a></li>
+</ul>
+
+<h3 id="a">A</h3>
+<ul>
+  <li><a href="https://anvilproject.org">Anvil</a>: NHGRI’s Genomic Data Science Analysis, Visualization, and Informatics Lab-Space.</li>
+</ul>
+
+<h3 id="b">B</h3>
+<ul>
+  <li><a href="http://bioinformatics.ca/">bioinformatics.ca</a>: Home of the Canadian Bioinformatics Workshops series. <br />
+<a href="https://bioinformaticsdotca.github.io/">Course Material</a><br />
+<a href="https://www.youtube.com/channel/UCKbkfKk65PZyRCzUwXOJung/featured">YouTube videos</a></li>
+</ul>
+
+<h3 id="c">C</h3>
+
+<ul>
+  <li><a href="https://github.com/euxhenh/cellar/blob/main/README.rst">Cellar: Interactive tool for analyzing single-cell omics data</a></li>
+  <li><a href="https://www.ncbi.nlm.nih.gov/clinvar/">ClinVar</a>: NCBI’s public archive of reports of the relationships among human variations and phenotypes.</li>
+  <li><a href="https://cqdg.ca/en.html">CQDG</a>: The Québec Genomic Data Center (Centre québécois de données génomiques)</li>
+</ul>
+
+<h3 id="d">D</h3>
+
+<ul>
+  <li>DRAGEN: The Illumina DRAGEN (Dynamic Read Analysis for GENomics) Bio-IT Platform is a commercial platform that provides secondary genomic analysis of sequencing data. <a href="https://www.illumina.com/products/by-type/informatics-products/dragen-bio-it-platform.html">from Illumina</a></li>
+</ul>
+
+<h3 id="g">G</h3>
+
+<ul>
+  <li><a href="https://gnomad.broadinstitute.org/">gnomAD</a> The Genome Aggregation Database (gnomAD), is a coalition of investigators seeking to aggregate and harmonize exome and genome sequencing data from a variety of large-scale sequencing projects.</li>
+  <li><a href="https://genebass.org/">genebass</a> A resource of exome-based association statistics.</li>
+</ul>
+
+<h3 id="h">H</h3>
+
+<ul>
+  <li><a href="https://hail.is/">Hail</a>: An open-source library for scalable genomic data exploration.</li>
+  <li><a href="https://hpo.jax.org/app/">Human Phenotype Ontology</a>: a standardized vocabulary of phenotypic abnormalities.</li>
+</ul>
+
+<h3 id="m">M</h3>
+
+<ul>
+  <li><a href="https://www.youtube.com/playlist?list=PLEEE2A91B09B77B4A">Medical and Population genetics primer playlist (part of the Broad’s YouTube channel)</a></li>
+</ul>
+
+<h3 id="s">S</h3>
+<ul>
+  <li><a href="https://seqr.broadinstitute.org/">Seqr</a>: a web-based tool for rare disease genomics. <br />
+<a href="https://github.com/broadinstitute/seqr">Seqr on GitHub</a> <br />
+<a href="https://www.youtube.com/playlist?list=PLlMMtlgw6qNiY6mkBu111-lpmANKHdGKM">Training videos for use of seqr</a></li>
+  <li><a href="http://scotty.genetics.utah.edu/">Scotty - Power Analysis for RNA Seq Experiments</a> PubMed <a href="https://pubmed.ncbi.nlm.nih.gov/23314327/">23314327</a></li>
+  <li>Single Cell RNA Open datasets: <br />
+<a href="https://www.10xgenomics.com/resources/datasets?query=&amp;page=1&amp;configure%5Bfacets%5D%5B0%5D=chemistryVersionAndThroughput&amp;configure%5Bfacets%5D%5B1%5D=pipeline.version&amp;configure%5BhitsPerPage%5D=500">From 10X Genomics</a> <br />
+<a href="https://www.nature.com/articles/s41597-021-00809-x.pdf">A multi-center cross-platform single-cell RNA sequencing reference dataset</a> PubMed <a href="https://pubmed.ncbi.nlm.nih.gov/33531477/">33531477</a></li>
+</ul>
+
+<h3 id="u">U</h3>
+
+<ul>
+  <li>UCSC Genome Browsers <a href="https://genome.ucsc.edu/">https://genome.ucsc.edu/</a><br />
+The UCSC Genome Browser is a web-based tool serving as a multi-powered microscope that allows researchers to view all 23 chromosomes of the human genome at any scale from a full chromosome down to an individual nucleotide. (<a href="https://genome.ucsc.edu/goldenPath/history.html">source</a>) <br />
+<a href="https://genome.ucsc.edu/cgi-bin/hgGateway">Human Genome Browser</a> <br />
+<a href="https://genome.ucsc.edu/FAQ/FAQformat.html">FAQ File formats</a> <br /></li>
+</ul>
+
+<h5 id="end-of-page">End of page</h5>
+
+<p>Want to see other entries? Send your suggestions to <a href="mailto:neurobioinfo@mcgill.ca">neurobioinfo@mcgill.ca</a></p>
+
+:ET

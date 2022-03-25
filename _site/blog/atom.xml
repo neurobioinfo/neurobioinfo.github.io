@@ -4,7 +4,7 @@
  <title>Hank Quinlan's Blog</title>
  <link href="http://neurobioinfo.github.io/blog/atom.xml" rel="self"/>
  <link href="http://neurobioinfo.github.io/blog"/>
- <updated>2022-02-20T00:50:10-05:00</updated>
+ <updated>2022-03-24T22:59:02-04:00</updated>
  <id>http://neurobioinfo.github.io/blog</id>
  <author>
    <name>Saeid Amiri</name>
@@ -332,7 +332,7 @@ This &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SHC()&lt
 
 &lt;h2 id=&quot;source&quot;&gt;Source&lt;/h2&gt;
 &lt;p&gt;The source of codes are available in GitHub and using the following code can be uploaded in R&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; source(&apos;https://raw.githubusercontent.com/saeidamiri1/GHC/master/SHC.R&apos;)
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; source('https://raw.githubusercontent.com/saeidamiri1/GHC/master/SHC.R')
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Also load the following libraries to run the computations in parallely,&lt;/p&gt;
@@ -344,7 +344,7 @@ This &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SHC()&lt
 &lt;h2 id=&quot;data-set&quot;&gt;Data set&lt;/h2&gt;
 &lt;p&gt;To describe the codes, we used the spiral data which is a non-convex data, the following script load source, dataset and plot it,&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; source(&apos;https://raw.githubusercontent.com/saeidamiri1/GHC/master/SHC.R&apos;)
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; source('https://raw.githubusercontent.com/saeidamiri1/GHC/master/SHC.R')
 &amp;gt; library(&quot;foreach&quot;)
 &amp;gt; library(&quot;doParallel&quot;)
 

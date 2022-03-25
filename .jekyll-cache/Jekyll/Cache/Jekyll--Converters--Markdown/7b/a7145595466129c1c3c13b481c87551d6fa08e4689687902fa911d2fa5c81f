@@ -1,0 +1,39 @@
+I"	<h1 id="whole-genomeexome-mapping-and-variant-calling-analysis">Whole-genome/exome mapping and variant calling Analysis</h1>
+
+<p><img src="/wf/WF05_WGS_workflow_ver07.jpg" alt="Whole Genome and Exome Analysis" title="Whole Genome and Exome Analysis" /></p>
+
+<h2 id="secondary-analysis-of-wgs-dnaseq-data-using-illumina-dragen">Secondary analysis of WGS DNAseq data using Illumina DRAGEN</h2>
+
+<p>Secondary analysis of whole-genome sequencing (WGS) or whole-exome sequencing (WES) is currently commonly performed at the Neuro Bioinformatics Core Facility and requires some input from the users about where the input files are, and what annotations are necessary. Some care should also be given to the control samples you want to use or have available in your own study.</p>
+
+<ul>
+  <li>
+    <p>Short description of the workflow and its purpose:</p>
+  </li>
+  <li>
+    <p>Run full per-sample secondary analysis pipeline on Illumina DRAGEN Bio-IT, via cloud-based Illumina Connected Analytics (ICA) platform.</p>
+  </li>
+  <li>Generates per-sample: 
+    <ul>
+      <li>Alignment</li>
+      <li>small variant calls</li>
+      <li>Copy-Number Variant (CNV) calls</li>
+      <li>Structural Variant (SV) calls</li>
+      <li>Repeat expansions</li>
+      <li>Per-chromosome ploidy calls</li>
+      <li>Runs of heterozygosity</li>
+      <li>Various QC metrics</li>
+    </ul>
+  </li>
+  <li>Raw samples sequences are uploaded to ICA, passed through the Dragen Germline pipeline, then outputs are downloaded back to Compute Canada HPC (beluga server).</li>
+</ul>
+
+<h2 id="bibliography">Bibliography:</h2>
+
+<ol>
+  <li>Original Link where workflow was first presented: Illumina <a href="https://support.illumina.com/content/dam/illumina-support/help/Illumina_DRAGEN_Bio_IT_Platform_v3_7_1000000141465/Content/SW/Informatics/Dragen/GPipelineIntro_fDG.htm">DRAGEN DNA Pipeline</a></li>
+  <li>Reliable variant calling during runtime of Illumina sequencing. Loka TP, Tausch SH, Renard BY. Sci Rep. 2019 Nov 11;9(1):16502 PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/31712740/">31712740</a> (This publication is not from Illumina, but it represents an early publication that references DRAGEN.)</li>
+  <li>From the GATK portal: <a href="https://gatk.broadinstitute.org/hc/en-us/articles/360045944831">DRAGEN-GATK – GATK</a></li>
+</ol>
+
+:ET
