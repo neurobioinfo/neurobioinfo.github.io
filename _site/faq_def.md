@@ -1,6 +1,6 @@
 # FAQ and the Definitions of Terms Used in Neurobioinfo Core Facility Workflows
 
-A Frequently Asked Questions (FAQ) section for a newly established Bioinformatics core facility will _de facto_ be a little scarce. In addition to some obvious questions, we also provide a short glossary of the terms that we are commonly using in our workflows and communications with you.
+<!-- A Frequently Asked Questions (FAQ) section for a newly established Bioinformatics core facility will _de facto_ be a little scarce. In addition to some obvious questions, we also provide a short glossary of the terms that we are commonly using in our workflows and communications with you. -->
 
   
 
