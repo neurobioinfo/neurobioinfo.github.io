@@ -65,7 +65,8 @@ PubMed [33001463](https://pubmed.ncbi.nlm.nih.gov/33001463/)
 PubMed [32970363](https://pubmed.ncbi.nlm.nih.gov/32970363/)
 
 
-##### End of page 
+----
+
 
 If you know of additional publications or preprints we should include here, please let us know: [neurobioinfo@mcgill.ca](mailto:neurobioinfo@mcgill.ca)
 

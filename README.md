@@ -7,6 +7,7 @@ Bioinformatics GitHub page where we will expose publically our
 workflows and various help documentation.
 
 * Home page: The Neuro Bioinformatics Core Facility
+* [The team](team.md)
 * [Workflows](workflow.md)
   * [RNA-Seq Analysis](/wf/rna.md)
   * [RNA-Seq and Differential Expression Analysis](/wf/rna_dea.md)
@@ -15,7 +16,6 @@ workflows and various help documentation.
   * [Whole-Genome/Exome Mapping and Variant Calling Analysis](/wf/wgs.md)
   * [Segregation Analysis](/wf/segregation.md)
  * [Data Management](/wf/data_management.md) 
-* [The team](team.md)
 * [FAQ and Definitions](faq_def)
 * [Outside Resources](resources.md)
 * [Publications](papers.md)
