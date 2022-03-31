@@ -62,7 +62,7 @@ The UCSC Genome Browser is a web-based tool serving as a multi-powered microscop
 
 
 
-##### End of page 
+----
 
 Want to see other entries? Send your suggestions to [neurobioinfo@mcgill.ca](mailto:neurobioinfo@mcgill.ca)
 
