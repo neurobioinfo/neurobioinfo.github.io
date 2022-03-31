@@ -19,6 +19,8 @@ To start working with us we ask that you first fill out our initial intake form 
 We are a [team](https://neurobioinfo.github.io/team) of dedicated and skilled bioinformatics people, ready to address any genomic and genetic analysis for 1 or 1,000 samples (or more). If you do not see the workflow that can address your bioinformatics needs, contact us at [neurobioinfo@mcgill.ca](mailto:neurobioinfo@mcgill.ca) and we will be happy to address your specific need(s).
 
 
+----
+
 
 
 
