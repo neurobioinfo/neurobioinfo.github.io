@@ -24,7 +24,7 @@ We are a [team](https://neurobioinfo.github.io/team) of dedicated and skilled bi
 
 <BR>
 **Neuro Bioinformatics Core Facility** <BR>
-The Neuro (Montreal Neurological Institute-Hospital) <BR>
+[The Neuro (Montreal Neurological Institute-Hospital)](https://www.mcgill.ca/neuro/) <BR>
 3801 University Street <BR>
 Montreal, QC H3A 2B4 <BR>
 Canada <BR>
