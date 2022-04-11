@@ -22,8 +22,6 @@ We are a [team](https://neurobioinfo.github.io/team) of dedicated and skilled bi
 ----
 
 
-<img src="/wf/neuro_logo.png" alt="Neuro Logo" width="300" height="150">
-
 <BR>
 **Neuro Bioinformatics Core Facility** <BR>
 The Neuro (Montreal Neurological Institute-Hospital) <BR>
