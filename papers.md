@@ -27,7 +27,7 @@ These are publications where the [Neuro Bioinformatics Core Facility team](/team
 
 ### 2022
 
-* Alenezi WM, Milano L, Fierheller CT, Serruya C, Revil T, Oros KK, Behl S, Arcand SL, Nayar P, **Spiegelman D**, Gravel S, Mes-Masson AM, Provencher D, Foulkes WD, Haffaf ZE, Rouleau G, Bouchard L, Greenwood CMT, Masson JY, Ragoussis J, Tonin PN. The Genetic and Molecular Analyses of RAD51C and RAD51D Identifies Rare Variants Implicated in Hereditary Ovarian Cancer from a Genetically Unique Population. Cancers. 2022 Apr 30;14(9):2251.  [DOI](https://doi.org/10.3390/cancers14092251).  PMID: [35565380](https://pubmed.ncbi.nlm.nih.gov/35565380)
+* Alenezi WM, Milano L, Fierheller CT, Serruya C, Revil T, Oros KK, Behl S, Arcand SL, Nayar P, **Spiegelman D**, Gravel S, Mes-Masson AM, Provencher D, Foulkes WD, Haffaf ZE, Rouleau G, Bouchard L, Greenwood CMT, Masson JY, Ragoussis J, Tonin PN. The Genetic and Molecular Analyses of RAD51C and RAD51D Identifies Rare Variants Implicated in Hereditary Ovarian Cancer from a Genetically Unique Population. Cancers. 2022 Apr 30;14(9):2251.  [DOI](https://doi.org/10.3390/cancers14092251). PubMed [35565380](https://pubmed.ncbi.nlm.nih.gov/35565380)
 
 
 * Larrivée-Vanier S, Jean-Louis M, Magne F, Bui H, Rouleau GA, **Spiegelman D**, Samuels ME, Kibar Z, Van Vliet G, Deladoëy J. Whole exome sequencing in congenital hypothyroidism due to thyroid dysgenesis. Thyroid. 2022 Mar 10. [DOI](https://doi.org/10.1089/thy.2021.0597). PubMed [35272499](https://pubmed.ncbi.nlm.nih.gov/35272499/)
