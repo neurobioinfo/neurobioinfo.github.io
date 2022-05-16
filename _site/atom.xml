@@ -4,7 +4,7 @@
  <title>The Neuro Bioinformatics Core</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-03-31T08:41:00-04:00</updated>
+ <updated>2022-05-16T10:18:27-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -336,6 +336,34 @@ Downstream integrated analysis includes: Dimensional reduction and clustering, c
   &lt;li&gt;&lt;a href=&quot;https://satijalab.org/seurat/&quot;&gt;Seurat&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
+&lt;h2 id=&quot;scrna-seq-techniques&quot;&gt;ScRNA-Seq techniques&lt;/h2&gt;
+
+&lt;p&gt;Different techniques are available for generating scRNA data [8][9]:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CEL-seq2/C1&lt;/li&gt;
+  &lt;li&gt;Drop-seq&lt;/li&gt;
+  &lt;li&gt;MARS-seq&lt;/li&gt;
+  &lt;li&gt;SCRB-seq&lt;/li&gt;
+  &lt;li&gt;Smart-seq/C1&lt;/li&gt;
+  &lt;li&gt;Smart-seq2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The difference between these techniques is that:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Some use unique molecular identifiers (UMIs) versus sequencing full length RNA&lt;/li&gt;
+  &lt;li&gt;While others are capturing more cells or more genes per cell&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/wf/WF04_scRNASeq_table_ver02.png&quot; alt=&quot;scRNA-Seq scRNASeq Technologies&quot; title=&quot;scRNASeq Technologies&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;UMIs are a randomly generated barcode added to sequencing libraries before any PCR amplification steps, which enabling the accurate bioinformatic identification of PCR duplicates.&lt;/li&gt;
+  &lt;li&gt;UMI are  a tool for genomic variant detection and by using UMIs instead of actual reads, the output will include less noise and less bias caused by the PCR amplification step.&lt;/li&gt;
+  &lt;li&gt;Refer to [8] and [9].&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&quot;bibliography&quot;&gt;Bibliography:&lt;/h2&gt;
 
 &lt;ol&gt;
@@ -346,6 +374,8 @@ Downstream integrated analysis includes: Dimensional reduction and clustering, c
   &lt;li&gt;Stoeckius M, Zheng S, Houck-Loomis B, Hao S, Yeung BZ, Mauck WM, et al. (2018) Cell Hashing with barcoded antibodies enables multiplexing and doublet detection for single cell genomics. Genome Biology. 19, 224. &lt;a href=&quot;https://doi.org/10.1186/s13059-018-1603-1&quot;&gt;Internet&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Satija R, Farrell JA, Gennert D, Schier AF, Regev A. (2015) Spatial reconstruction of single-cell gene expression data. Nature Biotechnology [Internet]. 33, 495–502. &lt;a href=&quot;https://doi.org/10.1038/nbt.3192&quot;&gt;Internet&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;10X Genomic. Cell Ranger. What is cellplex. &lt;a href=&quot;https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cellplex&quot;&gt;Internet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Ziegenhain, Christoph, Beate Vieth, Swati Parekh, Björn Reinius, Amy Guillaumet-Adkins, Martha Smets, Heinrich Leonhardt, Holger Heyn, Ines Hellmann, and Wolfgang Enard. “Comparative analysis of single-cell RNA sequencing methods.” Molecular cell 65, no. 4 (2017): 631-643. PMID &lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/28212749/&quot;&gt;28212749&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Chen, X., Teichmann, S.A. and Meyer, K.B., 2018. From tissues to cell types and back: single-cell gene expression analysis of tissue architecture. Annual Review of Biomedical Data Science, 1, pp.29-51. &lt;a href=&quot;https://doi.org/10.1146/annurev-biodatasci-080917-013452&quot;&gt;DOI&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 </content>

@@ -27,6 +27,9 @@ These are publications where the [Neuro Bioinformatics Core Facility team](/team
 
 ### 2022
 
+* Alenezi WM, Milano L, Fierheller CT, Serruya C, Revil T, Oros KK, Behl S, Arcand SL, Nayar P, **Spiegelman D**, Gravel S, Mes-Masson AM, Provencher D, Foulkes WD, Haffaf ZE, Rouleau G, Bouchard L, Greenwood CMT, Masson JY, Ragoussis J, Tonin PN. The Genetic and Molecular Analyses of RAD51C and RAD51D Identifies Rare Variants Implicated in Hereditary Ovarian Cancer from a Genetically Unique Population. Cancers. 2022 Apr 30;14(9):2251.  [DOI](https://doi.org/10.3390/cancers14092251).  PMID: [35565380](https://pubmed.ncbi.nlm.nih.gov/35565380)
+
+
 * Larrivée-Vanier S, Jean-Louis M, Magne F, Bui H, Rouleau GA, **Spiegelman D**, Samuels ME, Kibar Z, Van Vliet G, Deladoëy J. Whole exome sequencing in congenital hypothyroidism due to thyroid dysgenesis. Thyroid. 2022 Mar 10. [DOI](https://doi.org/10.1089/thy.2021.0597). PubMed [35272499](https://pubmed.ncbi.nlm.nih.gov/35272499/)
 
 * Sosero YL, Yu E, Estiar MA, Krohn L, Mufti K, Rudakou U, Ruskey JA, Asayesh F, Laurent SB, **Spiegelman D**, Trempe JF, Quinnell TG, Oscroft N, Arnulf I, Montplaisir JY, Gagnon JF, Desautels A, Dauvilliers Y, Gigli GL, Valente M, Janes F, Bernardini A, Sonka K, Kemlink D, Oertel W, Janzen A, Plazzi G, Antelmi E, Biscarini F, Figorilli M, Puligheddu M, Mollenhauer B, Trenkwalder C, Sixel-Döring F, Cochen De Cock V, Monaca CC, Heidbreder A, Ferini-Strambi L, Dijkstra F, Viaene M, Abril B, Boeve BF, Postuma RB, Rouleau GA, Ibrahim A, Stefani A, Högl B, Hu MTM, Gan-Or Z. Rare PSAP Variants and Possible Interaction with GBA in REM Sleep Behavior Disorder. J Parkinsons Dis. 2022;12(1):333-340. [DOI](https://doi.org/10.3233/JPD-212867). PubMed [34690151](https://pubmed.ncbi.nlm.nih.gov/34690151/)

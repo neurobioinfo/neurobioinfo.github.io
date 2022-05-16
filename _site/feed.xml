@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-31T08:41:00-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Neuro Bioinformatics Core</title><subtitle></subtitle><entry><title type="html">Whole-genome/exome mapping and variant calling Analysis</title><link href="http://localhost:4000/_posts/WGS" rel="alternate" type="text/html" title="Whole-genome/exome mapping and variant calling Analysis" /><published>2022-01-07T00:00:00-05:00</published><updated>2022-01-07T00:00:00-05:00</updated><id>http://localhost:4000/_posts/WGS</id><content type="html" xml:base="http://localhost:4000/_posts/WGS"><![CDATA[<h1 id="whole-genomeexome-mapping-and-variant-calling-analysis">Whole-genome/exome mapping and variant calling Analysis</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-16T10:18:27-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Neuro Bioinformatics Core</title><subtitle></subtitle><entry><title type="html">Whole-genome/exome mapping and variant calling Analysis</title><link href="http://localhost:4000/_posts/WGS" rel="alternate" type="text/html" title="Whole-genome/exome mapping and variant calling Analysis" /><published>2022-01-07T00:00:00-05:00</published><updated>2022-01-07T00:00:00-05:00</updated><id>http://localhost:4000/_posts/WGS</id><content type="html" xml:base="http://localhost:4000/_posts/WGS"><![CDATA[<h1 id="whole-genomeexome-mapping-and-variant-calling-analysis">Whole-genome/exome mapping and variant calling Analysis</h1>
 
 <p><img src="/wf/WF05_WGS_workflow_ver07.jpg" alt="Whole Genome and Exome Analysis" title="Whole Genome and Exome Analysis" /></p>
 
@@ -269,6 +269,34 @@ Downstream integrated analysis includes: Dimensional reduction and clustering, c
   <li><a href="https://satijalab.org/seurat/">Seurat</a></li>
 </ol>
 
+<h2 id="scrna-seq-techniques">ScRNA-Seq techniques</h2>
+
+<p>Different techniques are available for generating scRNA data [8][9]:</p>
+
+<ul>
+  <li>CEL-seq2/C1</li>
+  <li>Drop-seq</li>
+  <li>MARS-seq</li>
+  <li>SCRB-seq</li>
+  <li>Smart-seq/C1</li>
+  <li>Smart-seq2</li>
+</ul>
+
+<p>The difference between these techniques is that:</p>
+
+<ul>
+  <li>Some use unique molecular identifiers (UMIs) versus sequencing full length RNA</li>
+  <li>While others are capturing more cells or more genes per cell</li>
+</ul>
+
+<p><img src="/wf/WF04_scRNASeq_table_ver02.png" alt="scRNA-Seq scRNASeq Technologies" title="scRNASeq Technologies" /></p>
+
+<ul>
+  <li>UMIs are a randomly generated barcode added to sequencing libraries before any PCR amplification steps, which enabling the accurate bioinformatic identification of PCR duplicates.</li>
+  <li>UMI are  a tool for genomic variant detection and by using UMIs instead of actual reads, the output will include less noise and less bias caused by the PCR amplification step.</li>
+  <li>Refer to [8] and [9].</li>
+</ul>
+
 <h2 id="bibliography">Bibliography:</h2>
 
 <ol>
@@ -279,6 +307,8 @@ Downstream integrated analysis includes: Dimensional reduction and clustering, c
   <li>Stoeckius M, Zheng S, Houck-Loomis B, Hao S, Yeung BZ, Mauck WM, et al. (2018) Cell Hashing with barcoded antibodies enables multiplexing and doublet detection for single cell genomics. Genome Biology. 19, 224. <a href="https://doi.org/10.1186/s13059-018-1603-1">Internet</a></li>
   <li>Satija R, Farrell JA, Gennert D, Schier AF, Regev A. (2015) Spatial reconstruction of single-cell gene expression data. Nature Biotechnology [Internet]. 33, 495–502. <a href="https://doi.org/10.1038/nbt.3192">Internet</a></li>
   <li>10X Genomic. Cell Ranger. What is cellplex. <a href="https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cellplex">Internet</a></li>
+  <li>Ziegenhain, Christoph, Beate Vieth, Swati Parekh, Björn Reinius, Amy Guillaumet-Adkins, Martha Smets, Heinrich Leonhardt, Holger Heyn, Ines Hellmann, and Wolfgang Enard. “Comparative analysis of single-cell RNA sequencing methods.” Molecular cell 65, no. 4 (2017): 631-643. PMID <a href="https://pubmed.ncbi.nlm.nih.gov/28212749/">28212749</a></li>
+  <li>Chen, X., Teichmann, S.A. and Meyer, K.B., 2018. From tissues to cell types and back: single-cell gene expression analysis of tissue architecture. Annual Review of Biomedical Data Science, 1, pp.29-51. <a href="https://doi.org/10.1146/annurev-biodatasci-080917-013452">DOI</a></li>
 </ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Single Cell RNA-Seq Analysis]]></summary></entry><entry><title type="html">Data Management at the Neurobioinfo</title><link href="http://localhost:4000/_posts/data_management" rel="alternate" type="text/html" title="Data Management at the Neurobioinfo" /><published>2022-01-01T00:00:00-05:00</published><updated>2022-01-01T00:00:00-05:00</updated><id>http://localhost:4000/_posts/data_management</id><content type="html" xml:base="http://localhost:4000/_posts/data_management"><![CDATA[<h1 id="data-management">Data Management</h1>
 
 <p>Managing one’s sequencing data is an ongoing task that we are pleased to support and for which we will with the respective plan highlight the best path forward.  Factors affecting the decisions we make will include (but are not limited to) the following availability of some or all of these documents:</p>
