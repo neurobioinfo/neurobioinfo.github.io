@@ -25,20 +25,6 @@ permalink: team/
 
 | [McGill Web Page](https://www.mcgill.ca/neuro/sali-farhan-phd) | [Farhan lab](https://www.mcgill.ca/farhan-lab/) | [PubMed](https://www.mcgill.ca/farhan-lab/) | [Google Scholar](https://scholar.google.ca/citations?user=o7xoLwMAAAAJ&hl=en) | 
 
-
-## BF Francis Ouellette 
-
-
-<img src="/public/member/francis_ouellette.png" alt="Francis Ouellette" width="90" height="100">
-
-<!--- <img src="https://raw.githubusercontent.com/neurobioinfo/neurobioinfo.github.io/main/public/member/francis_ouellette.png" alt="Francis Ouellette" width="90" height="100"> -->
-
-
-### Neuro Bioinformatics Core Facility title: Executive Director
-**Biography:** Long-time computational biologist, and Open Science advocate and supporter, Francis has led many Bioinformatics core facilities teams over the last decades to now be back in his native Montréal. From the Yeast genome project to NCBI, UBC and OICR in Toronto, Francis has led for the last 30+ years great teams to support biologists and genomics people following the technology of the time. The thread throughout his career has been to support the best possible science, with the best practices, while teaching the next generation with cutting-edge workshops. Francis will use his expertise to develop and support a great team of bioinformaticians that will support the great computational genomics work done at the Neuro. As a TOSI Open Science Officer Francis will also support and champion Open Science best practices at the Neuro.
-
-| [ORCID](https://orcid.org/0000-0003-4676-675X) | [Twitter](https://twitter.com/bffo) | [GitHub](https://github.com/bffo) | [LinkedIn](https://www.linkedin.com/in/francisouellette/) | [Google Scholar](https://scholar.google.ca/citations?user=lT0bBFYAAAAJ&hl=en) | [My Bibliograpy @ My NCBI](https://www.ncbi.nlm.nih.gov/myncbi/francis.ouellette.1/bibliography/public/) | 
-
 ## Dan Spiegelman  
 
 <img src="/public/member/dan.spiegleman.jpg" alt="Dan Spiegleman" width="90" height="110">
